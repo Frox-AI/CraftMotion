@@ -242,8 +242,12 @@ def main(argv: Optional[List[str]] = None) -> int:
     p.set_defaults(func=cmd_doctor)
 
     argv = argv if argv is not None else sys.argv[1:]
-    if any(a in ("--version", "-V", "-h", "--help") for a in argv):
-        return parser.parse_args(argv) and 0
+    if "--version" in argv or "-V" in argv:
+        print(f"CraftMotion {__version__}")
+        return 0
+    if "-h" in argv or "--help" in argv:
+        parser.print_help()
+        return 0
     if not argv or argv[0] not in ("gui", "mcp", "serve", "run", "batch", "new", "import-am",
                                     "export", "storyboard", "doctor"):
         # bare invocation (or project path) opens the GUI
