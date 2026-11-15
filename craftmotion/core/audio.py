@@ -161,16 +161,16 @@ def lufs(samples: np.ndarray) -> float:
     if energies.size == 0:
         return -70.0
     with np.errstate(divide="ignore"):
-        l = -0.691 + 10 * np.log10(np.maximum(energies, 1e-12))
+        l = 10 * np.log10(np.maximum(energies, 1e-12))
     # absolute gate at -70 LUFS then relative gate at -10 LU below the ungated mean
     keep = l > -70
     if not keep.any():
         return -70.0
-    rel = -0.691 + 10 * math.log10(float(np.mean(energies[keep]))) - 10.0
+    rel = 10 * math.log10(float(np.mean(energies[keep]))) - 10.0
     keep2 = l > rel
     if not keep2.any():
         keep2 = keep
-    return float(-0.691 + 10 * math.log10(float(np.mean(energies[keep2]))))
+    return float(10 * math.log10(float(np.mean(energies[keep2]))))
 
 
 def true_peak(samples: np.ndarray) -> float:
