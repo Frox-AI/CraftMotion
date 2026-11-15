@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- WiX v3 definition: builds CraftMotion-<version>-x64.msi around dist\CraftMotion.exe -->
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+  <Product Id="*"
+           Name="CraftMotion Studio"
+           Language="1033"
+           Version="$(var.Version)"
+           Manufacturer="CraftMotion"
+           UpgradeCode="8B4E2D71-6C3A-4F59-9A7B-1E5D3C0AF412">
+    <Package InstallerVersion="500" Compressed="yes" InstallScope="perMachine"
+             Platform="x64"
+             Description="Motion graphics, video editing and Alight Motion XML — with a full MCP agent surface."/>
+    <MajorUpgrade DowngradeErrorMessage="A newer version of CraftMotion is already installed."/>
+    <MediaTemplate EmbedCab="yes"/>
+
+    <Icon Id="CraftMotionIcon" SourceFile="assets\craftmotion.ico"/>
+    <Property Id="ARPPRODUCTICON" Value="CraftMotionIcon"/>
+    <Property Id="ARPNOMODIFY" Value="1"/>
+
+    <Directory Id="TARGETDIR" Name="SourceDir">
+      <Directory Id="ProgramFiles64Folder">
+        <Directory Id="INSTALLFOLDER" Name="CraftMotion">
+          <Component Id="MainExe" Guid="*" Win64="yes">
+            <File Id="CraftMotionExe" Source="dist\CraftMotion.exe" KeyPath="yes">
+              <Shortcut Id="StartMenuShortcut" Directory="ProgramMenuDir" Name="CraftMotion Studio"
+                        WorkingDirectory="INSTALLFOLDER" Icon="CraftMotionIcon" Advertise="yes"/>
+              <Shortcut Id="DesktopShortcut" Directory="DesktopFolder" Name="CraftMotion Studio"
+                        WorkingDirectory="INSTALLFOLDER" Icon="CraftMotionIcon" Advertise="yes"/>
+            </File>
+          </Component>
+        </Directory>
+      </Directory>
+      <Directory Id="ProgramMenuFolder">
+        <Directory Id="ProgramMenuDir" Name="CraftMotion"/>
+      </Directory>
+      <Directory Id="DesktopFolder"/>
+    </Directory>
+
+    <Feature Id="MainFeature" Title="CraftMotion Studio" Level="1">
+      <ComponentRef Id="MainExe"/>
+    </Feature>
+  </Product>
+</Wix>

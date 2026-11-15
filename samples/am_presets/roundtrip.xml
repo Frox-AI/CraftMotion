@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scene title="Neon Title Preset" width="1080" height="1920" exportWidth="1080" exportHeight="1920" bgcolor="#FF0E0E14" totalTime="6000" fps="30" modifiedTime="1794654768568" amver="1028425" ffver="106" am="com.alightcreative.motion/5.0.273.1028425" amplatform="android">
+  <bookmark t="1200" />
+  <bookmark t="2400" />
+  <bookmark t="3600" />
+  <nullobj id="1" label="Camera Shake" startTime="0" endTime="6000">
+    <transform>
+      <location>
+        <kf t="0" v="540,960,0" e="cubicBezier 0 0 1 1" />
+        <kf t="0.1" v="558,948,0" e="cubicBezier 0 0 1 1" />
+        <kf t="0.2" v="524,972,0" e="cubicBezier 0 0 1 1" />
+        <kf t="0.3" v="549,950,0" e="cubicBezier 0 0 1 1" />
+        <kf t="0.4" v="540,960,0" />
+      </location>
+      <pivot value="0,0" />
+      <scale value="1,1" />
+      <skew value="0,0" />
+      <rotation>
+        <kf t="0" v="0" />
+        <kf t="0.1" v="-1.5" />
+        <kf t="0.2" v="1.2" />
+        <kf t="0.4" v="0" />
+      </rotation>
+      <opacity value="1" />
+    </transform>
+  </nullobj>
+  <shape id="2" label="Backdrop" startTime="0" endTime="6000" parent="10" fillType="color" s=".rect">
+    <transform>
+      <location value="0,0,0" />
+      <pivot value="0,0" />
+      <scale value="10.8,19.2" />
+      <skew value="0,0" />
+      <rotation value="0" />
+      <opacity value="1" />
+    </transform>
+    <fillColor value="#FF141422" />
+    <gradient type="linear" startColor="#FF141422" endColor="#FF141422" start="0,0" end="1,1" />
+    <property name="size" type="vec2" value="1080,1920" />
+    <effect id="com.alightcreative.effects.gaussianblur" locallyApplied="true">
+      <property name="radius" type="float" value="8" />
+      <property name="quality" type="float" value="1" />
+    </effect>
+  </shape>
+  <shape id="3" label="Circle Glow" startTime="0" endTime="6000" blending="screen" parent="10" fillType="color" s=".circle">
+    <transform>
+      <location value="540,760,0" />
+      <pivot value="0,0" />
+      <scale value="3,3" />
+      <skew value="0,0" />
+      <rotation value="0" />
+      <opacity value="0.65" />
+    </transform>
+    <fillColor value="#FF00E5FF" />
+    <property name="size" type="vec2" value="200,200" />
+    <effect id="com.alightcreative.effects.gaussianblur" locallyApplied="true">
+      <property name="radius" type="float" value="8" />
+      <property name="quality" type="float" value="1" />
+    </effect>
+  </shape>
+  <text id="4" label="Text 1" startTime="600" endTime="6000" parent="10" size="140" font="googlefonts?name=Archivo+Black" wrapWidth="900" align="center">
+    <transform>
+      <location>
+        <kf t="0.6" v="0,80,0" e="cubicBezier 0.2 0.9 0.3 1" />
+        <kf t="1.2" v="0,0,0" />
+      </location>
+      <pivot value="0,0" />
+      <scale>
+        <kf t="0.6" v="0.6,0.6" e="cubicBezier 0.2 0.9 0.3 1" />
+        <kf t="1.2" v="1,1" />
+      </scale>
+      <skew value="0,0" />
+      <rotation value="0" />
+      <opacity>
+        <kf t="0.6" v="0" />
+        <kf t="1.1" v="1" />
+      </opacity>
+    </transform>
+    <fillColor value="#FFFFFFFF" />
+    <content>NEON NIGHTS</content>
+    <effect id="com.alightcreative.effects.glow" locallyApplied="true">
+      <property name="radius" type="float" value="12" />
+      <property name="strength" type="float" value="0.8" />
+      <property name="threshold" type="float" value="0.55" />
+      <property name="color" type="color" value="#FFFFFFFF" />
+      <property name="use_color" type="bool" value="false" />
+    </effect>
+  </text>
+  <text id="5" label="Text 2" startTime="1800" endTime="6000" parent="10" size="52" font="googlefonts?name=DejaVu+Sans" wrapWidth="800" align="center">
+    <transform>
+      <location value="0,160,0" />
+      <pivot value="0,0" />
+      <scale value="1,1" />
+      <skew value="0,0" />
+      <rotation value="0" />
+      <opacity>
+        <kf t="1.8" v="0" />
+        <kf t="2.4" v="1" />
+      </opacity>
+    </transform>
+    <fillColor value="#FF00E5FF" />
+    <content>craftmotion preset pack</content>
+  </text>
+</scene>

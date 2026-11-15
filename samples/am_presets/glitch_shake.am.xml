@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<scene title="Glitch Shake Transition" width="1080" height="1920" exportWidth="1080" exportHeight="1920"
+       bgcolor="#00000000" totalTime="3000" fps="30" modifiedTime="1732000000000"
+       amver="1028425" ffver="106" am="com.alightcreative.motion/5.0.273.1028425"
+       amplatform="android" type="preset">
+  <nullobj id="20" label="Shake Rig" startTime="0" endTime="3000">
+    <transform>
+      <location value="540.000000,960.000000,0.000000">
+        <kf t="0.000000" v="540.000000,960.000000,0.000000" e="cubicBezier 0.0 0.0 0.2 1.0"/>
+        <kf t="0.100000" v="522.000000,972.000000,0.000000" e="cubicBezier 0.0 0.0 0.2 1.0"/>
+        <kf t="0.200000" v="556.000000,946.000000,0.000000" e="cubicBezier 0.0 0.0 0.2 1.0"/>
+        <kf t="0.300000" v="531.000000,966.000000,0.000000" e="cubicBezier 0.0 0.0 0.2 1.0"/>
+        <kf t="0.400000" v="540.000000,960.000000,0.000000"/>
+      </location>
+      <rotation value="0.000000">
+        <kf t="0.000000" v="0.000000"/>
+        <kf t="0.100000" v="-2.400000"/>
+        <kf t="0.200000" v="2.000000"/>
+        <kf t="0.400000" v="0.000000"/>
+      </rotation>
+      <scale value="1.000000,1.000000"/>
+      <opacity value="1.000000"/>
+    </transform>
+  </nullobj>
+  <shape id="21" label="Glitch Bars" startTime="0" endTime="3000" fillType="color" s=".rect" parent="20">
+    <transform>
+      <location value="0.000000,0.000000,0.000000"/>
+      <scale value="10.800000,19.200000"/>
+      <opacity value="0.300000">
+        <kf t="0.000000" v="0.450000" e="cubicBezier 0.3 0.0 0.7 1.0"/>
+        <kf t="0.130000" v="0.000000"/>
+      </opacity>
+    </transform>
+    <fillColor value="#FF00FFC8"/>
+    <effect id="com.alightcreative.effects.chromaticaberration" locallyApplied="true">
+      <property name="amount" type="float" value="0.600000"/>
+    </effect>
+    <effect id="com.alightcreative.effects.scanlines" locallyApplied="true">
+      <property name="spacing" type="float" value="6.000000"/>
+      <property name="opacity" type="float" value="0.400000"/>
+    </effect>
+    <property name="size" type="vec2" value="1080.000000,1920.000000"/>
+  </shape>
+  <text id="22" label="Impact Text" startTime="0" endTime="3000" fillType="color" parent="20"
+        size="160" font="googlefonts?name=Anton" wrapWidth="1000" align="center">
+    <transform>
+      <location value="0.000000,0.000000,0.000000">
+        <kf t="0.000000" v="0.000000,140.000000" e="cubicBezier 0.34 1.56 0.64 1.0"/>
+        <kf t="0.300000" v="0.000000,0.000000"/>
+      </location>
+      <scale value="1.000000,1.000000">
+        <kf t="0.000000" v="1.800000,1.800000" e="cubicBezier 0.34 1.56 0.64 1.0"/>
+        <kf t="0.300000" v="1.000000,1.000000"/>
+      </scale>
+      <rotation value="0.000000">
+        <kf t="0.000000" v="-8.000000" e="cubicBezier 0.34 1.56 0.64 1.0"/>
+        <kf t="0.300000" v="0.000000"/>
+      </rotation>
+      <opacity value="1.000000"/>
+    </transform>
+    <fillColor value="#FFFFFFFF"/>
+    <effect id="com.alightcreative.effects.glitch" locallyApplied="true">
+      <property name="amount" type="float" value="0.450000"/>
+      <property name="block" type="float" value="18.000000"/>
+    </effect>
+    <effect id="com.alightcreative.effects.shake" locallyApplied="true">
+      <property name="amount" type="float" value="5.000000"/>
+      <property name="speed" type="float" value="14.000000"/>
+    </effect>
+    <content>WATCH THIS</content>
+  </text>
+  <shape id="23" label="Flash" startTime="0" endTime="3000" fillType="color" s=".rect" parent="20"
+         blending="add">
+    <transform>
+      <location value="0.000000,0.000000,0.000000"/>
+      <scale value="10.800000,19.200000"/>
+      <opacity value="0.000000">
+        <kf t="0.000000" v="1.000000"/>
+        <kf t="0.150000" v="0.000000"/>
+      </opacity>
+    </transform>
+    <fillColor value="#FFFFFFFF"/>
+    <property name="size" type="vec2" value="1080.000000,1920.000000"/>
+  </shape>
+</scene>

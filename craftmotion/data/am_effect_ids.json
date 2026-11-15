@@ -1,0 +1,1130 @@
+{
+"com.alightcreative.blend.color": {
+"file": "blend-color",
+"name": "Blend/Color"
+},
+"com.alightcreative.blend.colorburn": {
+"file": "blend-color-burn",
+"name": "Blend/Color Burn"
+},
+"com.alightcreative.blend.colordodge": {
+"file": "blend-color-dodge",
+"name": "Blend/Color Dodge"
+},
+"com.alightcreative.blend.colormultiply": {
+"file": "blend-color-multiply",
+"name": "Blend/Color Multiply"
+},
+"com.alightcreative.blend.darken": {
+"file": "blend-darken",
+"name": "Blend/Darken"
+},
+"com.alightcreative.blend.darkercolor": {
+"file": "blend-darker-color",
+"name": "Blend/Darker Color"
+},
+"com.alightcreative.blend.diff": {
+"file": "blend-diff",
+"name": "Blend/Diff"
+},
+"com.alightcreative.blend.divide": {
+"file": "blend-divide",
+"name": "Blend/Subtract"
+},
+"com.alightcreative.blend.exclusion": {
+"file": "blend-exclusion",
+"name": "Blend/Hard Light"
+},
+"com.alightcreative.blend.hardlight": {
+"file": "blend-hard-light",
+"name": "Blend/Hard Light"
+},
+"com.alightcreative.blend.hue": {
+"file": "blend-hue",
+"name": "Blend/Hue"
+},
+"com.alightcreative.blend.lighten": {
+"file": "blend-lighten",
+"name": "Blend/Lighten"
+},
+"com.alightcreative.blend.lightercolor": {
+"file": "blend-lighter-color",
+"name": "Blend/Lighter Color"
+},
+"com.alightcreative.blend.linearburn": {
+"file": "blend-linear-burn",
+"name": "Blend/Linear Burn"
+},
+"com.alightcreative.blend.lineardodge": {
+"file": "blend-linear-dodge",
+"name": "Blend/Linear Dodge"
+},
+"com.alightcreative.blend.linearlight": {
+"file": "blend-linear-light",
+"name": "Blend/Hard Light"
+},
+"com.alightcreative.blend.luminance": {
+"file": "blend-luminance",
+"name": "Blend/Color"
+},
+"com.alightcreative.blend.overlay": {
+"file": "blend-overlay",
+"name": "Blend/Overlay"
+},
+"com.alightcreative.blend.pinlight": {
+"file": "blend-pin-light",
+"name": "Blend/Hard Light"
+},
+"com.alightcreative.blend.saturation": {
+"file": "blend-saturation",
+"name": "Blend/Hue"
+},
+"com.alightcreative.blend.softlight": {
+"file": "blend-soft-light",
+"name": "Blend/Soft Light"
+},
+"com.alightcreative.blend.softoverlay": {
+"file": "blend-soft-overlay",
+"name": "Blend/Soft Overlay"
+},
+"com.alightcreative.blend.subtract": {
+"file": "blend-subtract",
+"name": "Blend/Subtract"
+},
+"com.alightcreative.blend.vividlight": {
+"file": "blend-vivid-light",
+"name": "Blend/Hard Light"
+},
+"com.alightcreative.contour": {
+"file": "contour",
+"name": "@am:string/effect_contourlines_name"
+},
+"com.alightcreative.contourgrad": {
+"file": "contour-grad",
+"name": "@am:string/effect_contourgrad_name"
+},
+"com.alightcreative.effect.glass": {
+"file": "glass",
+"name": "@string/name"
+},
+"com.alightcreative.effect.glass2": {
+"file": "glass2",
+"name": "@am:string/effect_glass_name"
+},
+"com.alightcreative.effect.growparts": {
+"file": "grow-parts",
+"name": "@am:string/effect_growparts_name"
+},
+"com.alightcreative.effect.morphpath": {
+"file": "morph-path",
+"name": "@am:string/effect_morphpath_name"
+},
+"com.alightcreative.effect.movealongpath": {
+"file": "move-along-path",
+"name": "@am:string/effect_movealongpath_name"
+},
+"com.alightcreative.effect.movealongpath2": {
+"file": "move-along-path2",
+"name": "@am:string/effect_movealongpath_name"
+},
+"com.alightcreative.effect.movealongpath3": {
+"file": "move-along-path3",
+"name": "@am:string/effect_movealongpath_name"
+},
+"com.alightcreative.effect.shakeparts": {
+"file": "shake-parts",
+"name": "@am:string/effect_shakeparts_name"
+},
+"com.alightcreative.effects.bendwarp": {
+"file": "bend",
+"name": "@am:string/effect_bend_name"
+},
+"com.alightcreative.effects.blink": {
+"file": "blink",
+"name": "@am:string/effect_blink_name"
+},
+"com.alightcreative.effects.blink2": {
+"file": "blink2",
+"name": "@am:string/effect_blink_name"
+},
+"com.alightcreative.effects.blocknoise": {
+"file": "blocknoise",
+"name": "@am:string/effect_blocknoise_name"
+},
+"com.alightcreative.effects.blocknoise2": {
+"file": "blocknoise2",
+"name": "@am:string/effect_blocknoise_name"
+},
+"com.alightcreative.effects.box": {
+"file": "s3d-box",
+"name": "@am:string/effect_box_name"
+},
+"com.alightcreative.effects.boxblur": {
+"file": "boxblur",
+"name": "@string/name"
+},
+"com.alightcreative.effects.boxblur2": {
+"file": "boxblur2",
+"name": "@am:string/effect_preciseboxblur_name"
+},
+"com.alightcreative.effects.boxblur3": {
+"file": "boxblur3",
+"name": "@am:string/effect_boxblur_name"
+},
+"com.alightcreative.effects.brightcont": {
+"file": "brightness-contrast",
+"name": "@am:string/effect_brightnessContrast_name"
+},
+"com.alightcreative.effects.bumpmap": {
+"file": "bumpmap",
+"name": "@am:string/effect_bumpmap_name"
+},
+"com.alightcreative.effects.bumpmap2": {
+"file": "bumpmap2",
+"name": "@am:string/effect_bumpmap_name"
+},
+"com.alightcreative.effects.cartoon": {
+"file": "cartoon",
+"name": "@am:string/effect_cartoon_name"
+},
+"com.alightcreative.effects.channelmap": {
+"file": "channelmap",
+"name": "@am:string/effect_channelmap_name"
+},
+"com.alightcreative.effects.channelmaphsv": {
+"file": "channelmaphsv",
+"name": "@am:string/effect_channelmaphsv_name"
+},
+"com.alightcreative.effects.checker": {
+"file": "checker",
+"name": "@am:string/effect_checker_name"
+},
+"com.alightcreative.effects.checker2": {
+"file": "checker2",
+"name": "@am:string/effect_checker_name"
+},
+"com.alightcreative.effects.checkerdissolve": {
+"file": "checkerdissolve",
+"name": "@am:string/effect_blockdissolve_name"
+},
+"com.alightcreative.effects.checkerdissolve2": {
+"file": "checkerdissolve2",
+"name": "@am:string/effect_blockdissolve_name"
+},
+"com.alightcreative.effects.chromakey": {
+"file": "chromakey",
+"name": "@am:string/effect_chromakey_name"
+},
+"com.alightcreative.effects.chromaticvortexblur": {
+"file": "chromatic-vortexblur",
+"name": "@am:string/effect_chromatic_vortexblur_name"
+},
+"com.alightcreative.effects.circularripple": {
+"file": "circularripple",
+"name": "@am:string/effect_circularripple_name"
+},
+"com.alightcreative.effects.circularripple2": {
+"file": "circularripple2",
+"name": "@am:string/effect_circularripple_name"
+},
+"com.alightcreative.effects.clouds": {
+"file": "clouds",
+"name": "@string/name"
+},
+"com.alightcreative.effects.clouds2": {
+"file": "clouds2",
+"name": "@am:string/effect_clouds_name"
+},
+"com.alightcreative.effects.clouds3": {
+"file": "clouds3",
+"name": "@am:string/effect_clouds_name"
+},
+"com.alightcreative.effects.coloradj": {
+"file": "coloradj",
+"name": "Color Adjust"
+},
+"com.alightcreative.effects.colorhot": {
+"file": "colorhot",
+"name": "@am:string/effect_hotcolor_name"
+},
+"com.alightcreative.effects.colorhot2": {
+"file": "colorhot2",
+"name": "Hot Color 2"
+},
+"com.alightcreative.effects.colortemperature": {
+"file": "colortemperature",
+"name": "@am:string/effect_colortemperature_name"
+},
+"com.alightcreative.effects.colortint": {
+"file": "colortint",
+"name": "@am:string/effect_colorize_name"
+},
+"com.alightcreative.effects.colortune": {
+"file": "colortune",
+"name": "@am:string/effect_colortune_name"
+},
+"com.alightcreative.effects.colortune2": {
+"file": "colortune2",
+"name": "@am:string/effect_colortune_name"
+},
+"com.alightcreative.effects.counter": {
+"file": "counter",
+"name": "@am:string/effect_counter_name"
+},
+"com.alightcreative.effects.cube": {
+"file": "cube",
+"name": "@am:string/effect_cube_name"
+},
+"com.alightcreative.effects.cube2": {
+"file": "cube2",
+"name": "@am:string/effect_cube_name"
+},
+"com.alightcreative.effects.curl": {
+"file": "curl",
+"name": "@am:string/effect_curl_name"
+},
+"com.alightcreative.effects.cylinder": {
+"file": "s3d-cylinder",
+"name": "@am:string/effect_cylinder_name"
+},
+"com.alightcreative.effects.dblur": {
+"file": "dblur",
+"name": "@am:string/effect_dblur_name"
+},
+"com.alightcreative.effects.diff": {
+"file": "difference",
+"name": "@string/name"
+},
+"com.alightcreative.effects.differencematte": {
+"file": "difference-matte",
+"name": "@am:string/effect_diffmatte_name"
+},
+"com.alightcreative.effects.displacemap": {
+"file": "displacemap",
+"name": "@am:string/effect_displacemap_name"
+},
+"com.alightcreative.effects.displacemap2": {
+"file": "displacemap2",
+"name": "@am:string/effect_displacemap_name"
+},
+"com.alightcreative.effects.displacemap3": {
+"file": "displacemap3",
+"name": "@am:string/effect_displacemap_name"
+},
+"com.alightcreative.effects.displacemaprad": {
+"file": "displacemap-radial",
+"name": "@am:string/effect_displacemaprad_name"
+},
+"com.alightcreative.effects.dissolve": {
+"file": "dissolve",
+"name": "@am:string/effect_dissolve_name"
+},
+"com.alightcreative.effects.dots": {
+"file": "dots",
+"name": "@am:string/effect_dots_name"
+},
+"com.alightcreative.effects.dots2": {
+"file": "dots2",
+"name": "@am:string/effect_dots_name"
+},
+"com.alightcreative.effects.drawing.progress": {
+"file": "drawing-progress",
+"name": "@am:string/effect_drawingprogress_name"
+},
+"com.alightcreative.effects.drawing.strokecolor": {
+"file": "stroke-color",
+"name": "@am:string/effect_strokecolor_name"
+},
+"com.alightcreative.effects.drawing.stroketaper": {
+"file": "stroke-taper",
+"name": "@am:string/effect_stroketaper_name"
+},
+"com.alightcreative.effects.ellipsoid": {
+"file": "s3d-ellipsoid",
+"name": "@am:string/effect_ellipsoid_name"
+},
+"com.alightcreative.effects.exposure": {
+"file": "exposure",
+"name": "@am:string/effect_exposure_name"
+},
+"com.alightcreative.effects.facemotion": {
+"file": "facemotion",
+"name": "@string/name"
+},
+"com.alightcreative.effects.fade": {
+"file": "fade",
+"name": "@am:string/effect_fade_name"
+},
+"com.alightcreative.effects.fastboxblur": {
+"file": "fastboxblur",
+"name": "@am:string/effect_fastboxblur_name"
+},
+"com.alightcreative.effects.feather": {
+"file": "feather",
+"name": "@am:string/effect_feather_name"
+},
+"com.alightcreative.effects.findedges": {
+"file": "findedges",
+"name": "@am:string/effect_findedges_name"
+},
+"com.alightcreative.effects.findedges-edgeglow": {
+"file": "findedges-edgeglow",
+"name": "@am:string/effect_findedges_name"
+},
+"com.alightcreative.effects.flicker": {
+"file": "flicker",
+"name": "@am:string/effect_flicker_name"
+},
+"com.alightcreative.effects.flicker2": {
+"file": "flicker2",
+"name": "@am:string/effect_flicker_name"
+},
+"com.alightcreative.effects.flip": {
+"file": "flip",
+"name": "@am:string/effect_flipcompat_name"
+},
+"com.alightcreative.effects.flip2": {
+"file": "flip2",
+"name": "@am:string/effect_flip2_name"
+},
+"com.alightcreative.effects.flip3": {
+"file": "flip3",
+"name": "@am:string/effect_flip2_name"
+},
+"com.alightcreative.effects.fractalwarp": {
+"file": "fractalwarp",
+"name": "@string/name"
+},
+"com.alightcreative.effects.fractalwarp2": {
+"file": "fractalwarp2",
+"name": "@string/name"
+},
+"com.alightcreative.effects.fractalwarp3": {
+"file": "fractalwarp3",
+"name": "@am:string/effect_fractwarp_name"
+},
+"com.alightcreative.effects.gaussianblur": {
+"file": "gaussianblur",
+"name": "@am:string/effect_gaussianblur_name"
+},
+"com.alightcreative.effects.glowscan": {
+"file": "glowscan",
+"name": "@am:string/effect_glowscan_name"
+},
+"com.alightcreative.effects.gradientdisplace": {
+"file": "gradientdisplace",
+"name": "@am:string/effect_gradientdisplace_name"
+},
+"com.alightcreative.effects.grid": {
+"file": "grid",
+"name": "@am:string/effect_grid_name"
+},
+"com.alightcreative.effects.grid2": {
+"file": "grid2",
+"name": "@am:string/effect_grid_name"
+},
+"com.alightcreative.effects.halftonedots": {
+"file": "halftonedots",
+"name": "@am:string/effect_halftonedots_name"
+},
+"com.alightcreative.effects.halftonedotscmyk": {
+"file": "halftonecmyk",
+"name": "@am:string/effect_halftonedotscmyk_name"
+},
+"com.alightcreative.effects.halftonelines": {
+"file": "halftonelines",
+"name": "@am:string/effect_halftonelines_name"
+},
+"com.alightcreative.effects.heart": {
+"file": "s3d-heart",
+"name": "@am:string/effect_heart_name"
+},
+"com.alightcreative.effects.heart2": {
+"file": "s3d-heart2",
+"name": "@am:string/effect_heart_name"
+},
+"com.alightcreative.effects.hexarray": {
+"file": "hexarray",
+"name": "@am:string/effect_hexarray_name"
+},
+"com.alightcreative.effects.hexprism": {
+"file": "s3d-hexprism",
+"name": "@am:string/effect_hexprism_name"
+},
+"com.alightcreative.effects.hexrotate": {
+"file": "hexrotate",
+"name": "@am:string/effect_hexrotate_name"
+},
+"com.alightcreative.effects.hexshift": {
+"file": "hexshift",
+"name": "@am:string/effect_hexshift_name"
+},
+"com.alightcreative.effects.hextile": {
+"file": "hextile",
+"name": "@am:string/effect_hextile_name"
+},
+"com.alightcreative.effects.highlightshadow": {
+"file": "highlight-shadow",
+"name": "@am:string/effect_highlightShadow_name"
+},
+"com.alightcreative.effects.hueshift": {
+"file": "hueshift",
+"name": "@am:string/effect_hueshift_name"
+},
+"com.alightcreative.effects.innerblur": {
+"file": "innerblur",
+"name": "@am:string/effect_innerblur_name"
+},
+"com.alightcreative.effects.invert": {
+"file": "invert",
+"name": "@am:string/effect_invert_name"
+},
+"com.alightcreative.effects.irridescence": {
+"file": "irridescence",
+"name": "@string/name"
+},
+"com.alightcreative.effects.irridescence2": {
+"file": "irridescence2",
+"name": "@am:string/effect_irrid_name"
+},
+"com.alightcreative.effects.jitter": {
+"file": "jitter",
+"name": "@am:string/effect_jitter_name"
+},
+"com.alightcreative.effects.kaleidoscope": {
+"file": "kaleidoscope",
+"name": "@am:string/effect_kaleidoscope_name"
+},
+"com.alightcreative.effects.layernormtest": {
+"file": "layernormtest",
+"name": "@string/name"
+},
+"com.alightcreative.effects.lensblur": {
+"file": "lensblur",
+"name": "@string/name"
+},
+"com.alightcreative.effects.lensblur2": {
+"file": "lensblur2",
+"name": "@am:string/effect_lensblur_name"
+},
+"com.alightcreative.effects.lensflare": {
+"file": "lensflare",
+"name": "@am:string/effect_lensflare_name"
+},
+"com.alightcreative.effects.lift": {
+"file": "lift",
+"name": "@am:string/effect_copybg_name"
+},
+"com.alightcreative.effects.lightning": {
+"file": "lightning",
+"name": "@am:string/effect_lightning_name"
+},
+"com.alightcreative.effects.longshadow": {
+"file": "longshadow",
+"name": "@am:string/effect_longshadow_name"
+},
+"com.alightcreative.effects.longshadow2": {
+"file": "longshadow2",
+"name": "@am:string/effect_longshadow_name"
+},
+"com.alightcreative.effects.lumakey": {
+"file": "lumakey",
+"name": "@am:string/effect_lumakey_name"
+},
+"com.alightcreative.effects.lumakey2": {
+"file": "lumakey2",
+"name": "@am:string/effect_lumakey_name"
+},
+"com.alightcreative.effects.lumakey3": {
+"file": "lumakey3",
+"name": "@am:string/effect_lumakey_name"
+},
+"com.alightcreative.effects.maskblur": {
+"file": "maskblur",
+"name": "@am:string/effect_maskblur_name"
+},
+"com.alightcreative.effects.mattechoke": {
+"file": "mattechoke2",
+"name": "@am:string/effect_mattechoke_name"
+},
+"com.alightcreative.effects.mirror": {
+"file": "mirror",
+"name": "@am:string/effect_mirror_name"
+},
+"com.alightcreative.effects.mosaic": {
+"file": "mosaic",
+"name": "@am:string/effect_mosaic_name"
+},
+"com.alightcreative.effects.motionblur": {
+"file": "motionblur",
+"name": "@am:string/effect_mblur_name"
+},
+"com.alightcreative.effects.motionblur2": {
+"file": "motionblur2",
+"name": "@am:string/effect_mblur_name"
+},
+"com.alightcreative.effects.motionblur3": {
+"file": "motionblur3",
+"name": "@am:string/effect_mblur_name"
+},
+"com.alightcreative.effects.motionblur4": {
+"file": "motionblur4",
+"name": "@am:string/effect_mblur_name"
+},
+"com.alightcreative.effects.noise": {
+"file": "noise",
+"name": "@string/name"
+},
+"com.alightcreative.effects.noise2": {
+"file": "noise2",
+"name": "@am:string/effect_noise_name"
+},
+"com.alightcreative.effects.noise3": {
+"file": "noise3",
+"name": "@am:string/effect_noise_name"
+},
+"com.alightcreative.effects.octahedron": {
+"file": "s3d-octahedron",
+"name": "@am:string/effect_octahedron_name"
+},
+"com.alightcreative.effects.offset": {
+"file": "offset",
+"name": "@am:string/effect_offset_name"
+},
+"com.alightcreative.effects.oscillate": {
+"file": "oscillate",
+"name": "@am:string/effect_oscillate_name"
+},
+"com.alightcreative.effects.oscillate2": {
+"file": "oscillate2",
+"name": "@am:string/effect_oscillate_name"
+},
+"com.alightcreative.effects.oscillate3": {
+"file": "oscillate3",
+"name": "@am:string/effect_oscillate_name"
+},
+"com.alightcreative.effects.outline": {
+"file": "outline",
+"name": "@string/name"
+},
+"com.alightcreative.effects.outlinebad": {
+"file": "outline-bad",
+"name": "@string/name"
+},
+"com.alightcreative.effects.outlinebasic": {
+"file": "outline-basic",
+"name": "@string/name"
+},
+"com.alightcreative.effects.palettemap": {
+"file": "palette-map",
+"name": "@am:string/effect_palettemap_name"
+},
+"com.alightcreative.effects.parenthelper": {
+"file": "parenthelper",
+"name": "@am:string/effect_parenthelper_name"
+},
+"com.alightcreative.effects.perlindisplace": {
+"file": "perlindisplace",
+"name": "@am:string/effect_simplexdisplace_name"
+},
+"com.alightcreative.effects.pinchbulge": {
+"file": "pinchbulge",
+"name": "@am:string/effect_pinchbulge_name"
+},
+"com.alightcreative.effects.pinchbulge2": {
+"file": "pinchbulge2",
+"name": "@am:string/effect_pinchbulge_name"
+},
+"com.alightcreative.effects.pinchbulgeinside": {
+"file": "pinchbulgeinside",
+"name": "@am:string/effect_pinchbulgeinside_name"
+},
+"com.alightcreative.effects.pixelate": {
+"file": "pixelate",
+"name": "@am:string/effect_pixelate_name"
+},
+"com.alightcreative.effects.pixelate2": {
+"file": "pixelate2",
+"name": "@am:string/effect_pixelate_name"
+},
+"com.alightcreative.effects.plus": {
+"file": "s3d-plus",
+"name": "@am:string/effect_plus_name"
+},
+"com.alightcreative.effects.polar": {
+"file": "polar",
+"name": "@am:string/effect_polar_name"
+},
+"com.alightcreative.effects.posterize": {
+"file": "posterize",
+"name": "@am:string/effect_posterize_name"
+},
+"com.alightcreative.effects.pulsate": {
+"file": "pulsate",
+"name": "@am:string/effect_pulsate_name"
+},
+"com.alightcreative.effects.pulsate2": {
+"file": "pulsate2",
+"name": "@am:string/effect_pulsate_name"
+},
+"com.alightcreative.effects.pulseopacity": {
+"file": "pulse-opacity",
+"name": "@am:string/effect_pulseopacity_name"
+},
+"com.alightcreative.effects.pulseopacity2": {
+"file": "pulse_opacity2",
+"name": "@am:string/effect_pulseopacity_name"
+},
+"com.alightcreative.effects.pyramid": {
+"file": "s3d-pyramid",
+"name": "@am:string/effect_pyramid_name"
+},
+"com.alightcreative.effects.radialrays": {
+"file": "radial_rays",
+"name": "@am:string/effect_radialrays_name"
+},
+"com.alightcreative.effects.radialshadow": {
+"file": "radialshadow",
+"name": "@am:string/effect_radialshadow_name"
+},
+"com.alightcreative.effects.radialshadow2": {
+"file": "radialshadow2",
+"name": "@am:string/effect_radialshadow_name"
+},
+"com.alightcreative.effects.radialwipe": {
+"file": "radialwipe",
+"name": "@am:string/effect_radialwipe_name"
+},
+"com.alightcreative.effects.randomdisplace": {
+"file": "randomdisplace",
+"name": "@am:string/effect_simplexdisplace_name"
+},
+"com.alightcreative.effects.rays": {
+"file": "rays",
+"name": "@am:string/effect_rays_name"
+},
+"com.alightcreative.effects.repeat": {
+"file": "repeat",
+"name": "@am:string/effect_repeat_name"
+},
+"com.alightcreative.effects.repeat.grid": {
+"file": "repeat-grid",
+"name": "@am:string/effect_repeatgrid_name"
+},
+"com.alightcreative.effects.repeat.line": {
+"file": "repeat-line",
+"name": "@am:string/effect_repeatline_name"
+},
+"com.alightcreative.effects.repeat.path": {
+"file": "repeat-path",
+"name": "@am:string/effect_repeatpath_name"
+},
+"com.alightcreative.effects.repeat.radial": {
+"file": "repeat-radial",
+"name": "@am:string/effect_repeatradial_name"
+},
+"com.alightcreative.effects.repeat.scatter": {
+"file": "repeat-scatter",
+"name": "@am:string/effect_repeatscatter_name"
+},
+"com.alightcreative.effects.rgb-gamma": {
+"file": "rgb-gamma",
+"name": "@am:string/effect_rgb_gamma_name"
+},
+"com.alightcreative.effects.rgb-mixer": {
+"file": "rgb-mixer",
+"name": "@am:string/effect_rgb_mixer_name"
+},
+"com.alightcreative.effects.rgbsep": {
+"file": "rgbsep",
+"name": "@am:string/effect_channelshift_name"
+},
+"com.alightcreative.effects.ribbon": {
+"file": "ribbon",
+"name": "@am:string/effect_ribbon_name"
+},
+"com.alightcreative.effects.ridges": {
+"file": "ridges",
+"name": "@am:string/effect_ridges_name"
+},
+"com.alightcreative.effects.ridges2": {
+"file": "ridges2",
+"name": "@am:string/effect_ridges_name"
+},
+"com.alightcreative.effects.roughenedges": {
+"file": "roughenedges",
+"name": "@am:string/effect_roughenedges_name"
+},
+"com.alightcreative.effects.satvib": {
+"file": "vibrance-saturation",
+"name": "@am:string/effect_vibranceSaturation_name"
+},
+"com.alightcreative.effects.scaleassist": {
+"file": "scaleassist",
+"name": "@am:string/effect_scaleassist_name"
+},
+"com.alightcreative.effects.shadow": {
+"file": "shadow",
+"name": "@string/name"
+},
+"com.alightcreative.effects.shake": {
+"file": "shake",
+"name": "@am:string/effect_shake_name"
+},
+"com.alightcreative.effects.shake2": {
+"file": "shake2",
+"name": "@am:string/effect_shake_name"
+},
+"com.alightcreative.effects.sharpen": {
+"file": "sharpen",
+"name": "@am:string/effect_sharpen_name"
+},
+"com.alightcreative.effects.simplestars": {
+"file": "simplestars",
+"name": "@am:string/effect_simplestars_name"
+},
+"com.alightcreative.effects.simplestars2": {
+"file": "simplestars2",
+"name": "@am:string/effect_simplestars_name"
+},
+"com.alightcreative.effects.spherize": {
+"file": "spherize",
+"name": "@am:string/effect_spherize_name"
+},
+"com.alightcreative.effects.spherize2": {
+"file": "spherize2",
+"name": "@am:string/effect_spherize_name"
+},
+"com.alightcreative.effects.spin": {
+"file": "spin",
+"name": "@am:string/effect_spin_name"
+},
+"com.alightcreative.effects.spinblur": {
+"file": "spinblur",
+"name": "@string/name"
+},
+"com.alightcreative.effects.spinblur2": {
+"file": "spinblur2",
+"name": "@am:string/effect_spinblur_name"
+},
+"com.alightcreative.effects.squeeze": {
+"file": "squeeze",
+"name": "@am:string/effect_squeeze_name"
+},
+"com.alightcreative.effects.star": {
+"file": "star",
+"name": "@am:string/effect_star_name"
+},
+"com.alightcreative.effects.starfield": {
+"file": "starfield",
+"name": "@string/name"
+},
+"com.alightcreative.effects.starfield2": {
+"file": "starfield2",
+"name": "@am:string/effect_starfield_name"
+},
+"com.alightcreative.effects.starfield3": {
+"file": "starfield3",
+"name": "@am:string/effect_starfield_name"
+},
+"com.alightcreative.effects.starprism": {
+"file": "s3d-starprism",
+"name": "@am:string/effect_starprism_name"
+},
+"com.alightcreative.effects.streaks": {
+"file": "streaks-linear",
+"name": "@am:string/effect_linearstreaks_name"
+},
+"com.alightcreative.effects.streaks-spin": {
+"file": "streaks-spin",
+"name": "@am:string/effect_spinstreaks_name"
+},
+"com.alightcreative.effects.streaks-zoom": {
+"file": "streaks-zoom",
+"name": "@am:string/effect_zoomstreaks_name"
+},
+"com.alightcreative.effects.stretch": {
+"file": "stretch",
+"name": "@am:string/effect_stretch_name"
+},
+"com.alightcreative.effects.stretch2": {
+"file": "stretch2",
+"name": "@am:string/effect_stretch_name"
+},
+"com.alightcreative.effects.stretchsegment": {
+"file": "stretchsegment",
+"name": "@am:string/effect_stretchsegment_name"
+},
+"com.alightcreative.effects.stripes": {
+"file": "stripes",
+"name": "@am:string/effect_stripes_name"
+},
+"com.alightcreative.effects.swing": {
+"file": "swing",
+"name": "@am:string/effect_swing_name"
+},
+"com.alightcreative.effects.swing2": {
+"file": "swing2",
+"name": "@am:string/effect_swing_name"
+},
+"com.alightcreative.effects.swirl": {
+"file": "swirl",
+"name": "@string/name"
+},
+"com.alightcreative.effects.swirl2": {
+"file": "swirl2",
+"name": "@am:string/effect_swirl_name"
+},
+"com.alightcreative.effects.swirl3": {
+"file": "swirl3",
+"name": "@am:string/effect_swirl_name"
+},
+"com.alightcreative.effects.swirl4": {
+"file": "swirl4",
+"name": "@am:string/effect_swirl_name"
+},
+"com.alightcreative.effects.test": {
+"file": "test",
+"name": "@string/name"
+},
+"com.alightcreative.effects.test2": {
+"file": "test2",
+"name": "@string/name"
+},
+"com.alightcreative.effects.test3": {
+"file": "test3",
+"name": "@string/name"
+},
+"com.alightcreative.effects.testblur": {
+"file": "testblur",
+"name": "@string/name"
+},
+"com.alightcreative.effects.textprogress": {
+"file": "textprogress",
+"name": "@am:string/effect_textprogress_name"
+},
+"com.alightcreative.effects.textrand": {
+"file": "textrand",
+"name": "@am:string/effect_textrandomize_name"
+},
+"com.alightcreative.effects.textspacing": {
+"file": "text-spacing",
+"name": "@am:string/effect_textspacing_name"
+},
+"com.alightcreative.effects.texttransform": {
+"file": "text-transform",
+"name": "@am:string/effect_texttransform_name"
+},
+"com.alightcreative.effects.threshold": {
+"file": "threshold",
+"name": "@am:string/effect_threshold_name"
+},
+"com.alightcreative.effects.tile": {
+"file": "tile",
+"name": "@am:string/effect_tiles_name"
+},
+"com.alightcreative.effects.tilerotate": {
+"file": "tilerotate",
+"name": "@am:string/effect_tilerotate_name"
+},
+"com.alightcreative.effects.tilerotate2": {
+"file": "tilerotate2",
+"name": "@am:string/effect_tilerotate_name"
+},
+"com.alightcreative.effects.tileshift": {
+"file": "tileshift",
+"name": "@am:string/effect_tileshift_name"
+},
+"com.alightcreative.effects.tileshift2": {
+"file": "tileshift2",
+"name": "@am:string/effect_tileshift_name"
+},
+"com.alightcreative.effects.timecode": {
+"file": "timecode",
+"name": "@am:string/effect_timecode_name"
+},
+"com.alightcreative.effects.timequant": {
+"file": "timequant",
+"name": "@am:string/effect_timequant_name"
+},
+"com.alightcreative.effects.torus": {
+"file": "s3d-torus",
+"name": "@am:string/effect_torus_name"
+},
+"com.alightcreative.effects.triprism": {
+"file": "s3d-triprism",
+"name": "@am:string/effect_triprism_name"
+},
+"com.alightcreative.effects.triprism2": {
+"file": "s3d-triprism2",
+"name": "@am:string/effect_triprism_name"
+},
+"com.alightcreative.effects.tunnel": {
+"file": "tunnel",
+"name": "@am:string/effect_tunnel_name"
+},
+"com.alightcreative.effects.turbulence": {
+"file": "turbulence",
+"name": "@am:string/effect_turbulence_name"
+},
+"com.alightcreative.effects.turbulence2": {
+"file": "turbulence2",
+"name": "@am:string/effect_turbulence_name"
+},
+"com.alightcreative.effects.turbulentdisplace": {
+"file": "turbulentdisplace",
+"name": "@am:string/effect_turbulentdisplace_name"
+},
+"com.alightcreative.effects.turbulentdisplace2": {
+"file": "turbulentdisplace2",
+"name": "@am:string/effect_turbulentdisplace_name"
+},
+"com.alightcreative.effects.turbulentdisplace3": {
+"file": "turbulentdisplace3",
+"name": "@am:string/effect_turbulentdisplace_name"
+},
+"com.alightcreative.effects.vignette": {
+"file": "vignette",
+"name": "@am:string/effect_vignette_name"
+},
+"com.alightcreative.effects.volumetricclouds": {
+"file": "volumetric-clouds",
+"name": "@am:string/effect_volumetricclouds_name"
+},
+"com.alightcreative.effects.voronoi": {
+"file": "voronoi",
+"name": "@am:string/effect_voronoi_name"
+},
+"com.alightcreative.effects.voronoi2": {
+"file": "voronoi2",
+"name": "@am:string/effect_voronoi_name"
+},
+"com.alightcreative.effects.vortexblur": {
+"file": "vortexblur",
+"name": "@am:string/effect_vortexblur_name"
+},
+"com.alightcreative.effects.vrcombined": {
+"file": "vr-combined",
+"name": "@am:string/effect_vrcombined_name"
+},
+"com.alightcreative.effects.vrplayer": {
+"file": "vr-player",
+"name": "@am:string/effect_360viewer_name"
+},
+"com.alightcreative.effects.warpblur": {
+"file": "warpblur",
+"name": "@am:string/effect_warpblur_name"
+},
+"com.alightcreative.effects.wavewarp": {
+"file": "wavewarp",
+"name": "@string/name"
+},
+"com.alightcreative.effects.wavewarp2": {
+"file": "wavewarp2",
+"name": "@am:string/effect_wavewarp_name"
+},
+"com.alightcreative.effects.wipe": {
+"file": "wipe",
+"name": "@am:string/effect_wipe_name"
+},
+"com.alightcreative.effects.wipe2": {
+"file": "wipe2",
+"name": "@am:string/effect_wipe_name"
+},
+"com.alightcreative.effects.zoomblur": {
+"file": "zoomblur",
+"name": "@string/name"
+},
+"com.alightcreative.effects.zoomblur2": {
+"file": "zoomblur2",
+"name": "@am:string/effect_zoomblur_name"
+},
+"com.alightcreative.effects.zoomblur3": {
+"file": "zoomblur3",
+"name": "@am:string/effect_zoomblur_name"
+},
+"com.alightcreative.fourcolorgradient": {
+"file": "fourcolorgradient",
+"name": "@am:string/effect_fourcolorgradient_name"
+},
+"com.alightcreative.glow": {
+"file": "glow",
+"name": "@am:string/effect_glow_name"
+},
+"com.alightcreative.gradientmap": {
+"file": "gradientmap",
+"name": "@am:string/effect_gradientmap_name"
+},
+"com.alightcreative.gradientoverlay": {
+"file": "gradientoverlay",
+"name": "@am:string/effect_gradientoverlay_name"
+},
+"com.alightcreative.gradientoverlay2": {
+"file": "gradientoverlay2",
+"name": "@am:string/effect_gradientoverlay_name"
+},
+"com.alightcreative.inner-glow": {
+"file": "glow-inner",
+"name": "@am:string/effect_glowinner_name"
+},
+"com.alightcreative.internal.border": {
+"file": "internal-border",
+"name": "@string/name"
+},
+"com.alightcreative.internal.border-center": {
+"file": "internal-border-center",
+"name": "@string/name"
+},
+"com.alightcreative.internal.border-inside": {
+"file": "internal-border-inside",
+"name": "@string/name"
+},
+"com.alightcreative.internal.border-outside": {
+"file": "internal-border-outside",
+"name": "@string/name"
+},
+"com.alightcreative.internal.border-three": {
+"file": "internal-border-three",
+"name": "@string/name"
+},
+"com.alightcreative.internal.border-two": {
+"file": "internal-border-two",
+"name": "@string/name"
+},
+"com.alightcreative.internal.shadow": {
+"file": "internal-shadow",
+"name": "@string/name"
+},
+"com.alightcreative.internal.smoothbevel": {
+"file": "smoothbevel",
+"name": "@am:string/effect_smoothbevel_name"
+},
+"com.alightcreative.mattechoke": {
+"file": "mattechoke",
+"name": "@am:string/effect_mattechoke_name"
+},
+"com.alightcreative.replacecolor": {
+"file": "replacecolor",
+"name": "@am:string/effect_replacecolor_name"
+},
+"com.alightcreative.solidcolor": {
+"file": "solidcolor",
+"name": "@am:string/effect_solidcolor_name"
+},
+"com.alightcreative.solidmatte": {
+"file": "solidmatte",
+"name": "@am:string/effect_solidmatte_name"
+},
+"com.alightcreative.spectralmap": {
+"file": "spectralmap",
+"name": "@am:string/effect_spectralmap_name"
+},
+"com.alightcreative.spotcolor": {
+"file": "spotcolor",
+"name": "@am:string/effect_spotcolor_name"
+},
+"com.alightcreative.spotcolor2": {
+"file": "spotcolor2",
+"name": "@am:string/effect_spotcolor_name"
+}
+}

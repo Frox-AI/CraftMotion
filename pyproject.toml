@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "craftmotion"
+version = "1.0.0"
+description = "Motion graphics + video editing + Alight Motion XML, with a full MCP agent surface"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "CraftMotion" }]
+keywords = ["video editing", "motion graphics", "keyframes", "alight motion", "mcp", "ai agents"]
+dependencies = ["numpy>=1.24", "pillow>=10", "imageio-ffmpeg>=0.4.9"]
+
+[project.optional-dependencies]
+build = ["pyinstaller>=6"]
+test = ["pytest>=7"]
+
+[project.scripts]
+craftmotion = "craftmotion.cli:main"
+
+[tool.setuptools]
+packages = ["craftmotion", "craftmotion.core", "craftmotion.gui"]
+
+[tool.setuptools.package-data]
+craftmotion = ["data/fonts/*.ttf", "data/*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

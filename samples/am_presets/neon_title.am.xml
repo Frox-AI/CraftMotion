@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<scene title="Neon Title Preset" width="1080" height="1920" exportWidth="1080" exportHeight="1920"
+       bgcolor="#FF0E0E14" totalTime="6000" fps="30" modifiedTime="1731000000000"
+       amver="1028425" ffver="106" am="com.alightcreative.motion/5.0.273.1028425"
+       amplatform="android" type="preset">
+  <bookmark t="1200"/>
+  <bookmark t="2400"/>
+  <bookmark t="3600"/>
+  <nullobj id="10" label="Camera Shake" startTime="0" endTime="6000">
+    <transform>
+      <location value="540.000000,960.000000,0.000000">
+        <kf t="0.000000" v="540.000000,960.000000,0.000000" e="cubicBezier 0.0 0.0 1.0 1.0"/>
+        <kf t="0.100000" v="558.000000,948.000000,0.000000" e="cubicBezier 0.0 0.0 1.0 1.0"/>
+        <kf t="0.200000" v="524.000000,972.000000,0.000000" e="cubicBezier 0.0 0.0 1.0 1.0"/>
+        <kf t="0.300000" v="549.000000,950.000000,0.000000" e="cubicBezier 0.0 0.0 1.0 1.0"/>
+        <kf t="0.400000" v="540.000000,960.000000,0.000000"/>
+      </location>
+      <rotation value="0.000000">
+        <kf t="0.000000" v="0.000000"/>
+        <kf t="0.100000" v="-1.500000"/>
+        <kf t="0.200000" v="1.200000"/>
+        <kf t="0.400000" v="0.000000"/>
+      </rotation>
+      <scale value="1.000000,1.000000"/>
+      <opacity value="1.000000"/>
+    </transform>
+  </nullobj>
+  <shape id="1" label="Backdrop" startTime="0" endTime="6000" fillType="color" s=".rect" parent="10">
+    <transform>
+      <location value="0.000000,0.000000,0.000000"/>
+      <pivot value="0.000000,0.000000"/>
+      <scale value="10.800000,19.200000"/>
+      <rotation value="0.000000"/>
+      <opacity value="1.000000"/>
+    </transform>
+    <fillColor value="#FF141422"/>
+    <gradient type="radial" startColor="#FF6A4BD8" endColor="#FF101020"
+              start="0.500000,0.400000" end="1.000000,1.000000"/>
+    <effect id="com.alightcreative.effects.gaussianblur" locallyApplied="true">
+      <property name="strength" type="float" value="0.400000"/>
+    </effect>
+    <property name="size" type="vec2" value="1080.000000,1920.000000"/>
+  </shape>
+  <shape id="2" label="Circle Glow" startTime="0" endTime="6000" fillType="color" s=".circle"
+         blending="screen" parent="10">
+    <transform>
+      <location value="0.000000,-320.000000,0.000000"/>
+      <scale value="4.000000,4.000000"/>
+      <opacity value="0.550000"/>
+      <rotation value="0.000000"/>
+    </transform>
+    <fillColor value="#FF00E5FF"/>
+    <effect id="com.alightcreative.effects.gaussianblur" locallyApplied="true">
+      <property name="strength" type="float" value="1.200000"/>
+    </effect>
+    <property name="size" type="vec2" value="200.000000,200.000000"/>
+  </shape>
+  <text id="3" label="Text 1" startTime="600" endTime="6000" fillType="color" parent="10"
+        size="140" font="googlefonts?name=Archivo+Black&amp;weight=400" wrapWidth="900" align="center">
+    <transform>
+      <location value="0.000000,0.000000,0.000000">
+        <kf t="0.600000" v="0.000000,80.000000,0.000000" e="cubicBezier 0.2 0.9 0.3 1.0"/>
+        <kf t="1.200000" v="0.000000,0.000000,0.000000"/>
+      </location>
+      <pivot value="0.000000,0.000000"/>
+      <scale value="1.000000,1.000000">
+        <kf t="0.600000" v="0.600000,0.600000" e="cubicBezier 0.2 0.9 0.3 1.0"/>
+        <kf t="1.200000" v="1.000000,1.000000"/>
+      </scale>
+      <rotation value="0.000000"/>
+      <opacity value="1.000000">
+        <kf t="0.600000" v="0.000000"/>
+        <kf t="1.100000" v="1.000000"/>
+      </opacity>
+    </transform>
+    <fillColor value="#FFFFFFFF"/>
+    <effect id="com.alightcreative.glow" locallyApplied="true">
+      <property name="strength" type="float" value="0.800000"/>
+    </effect>
+    <content>NEON NIGHTS</content>
+  </text>
+  <text id="4" label="Text 2" startTime="1800" endTime="6000" fillType="color" parent="10"
+        size="52" wrapWidth="800" align="center">
+    <transform>
+      <location value="0.000000,160.000000,0.000000"/>
+      <opacity value="1.000000">
+        <kf t="1.800000" v="0.000000"/>
+        <kf t="2.400000" v="1.000000"/>
+      </opacity>
+    </transform>
+    <fillColor value="#FF00E5FF"/>
+    <content>craftmotion preset pack</content>
+  </text>
+</scene>

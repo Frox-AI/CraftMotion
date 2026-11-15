@@ -1,0 +1,6750 @@
+{
+ "app": "CraftMotion",
+ "format": 1,
+ "title": "SIGNAL / NOISE",
+ "created": 1794673464881,
+ "modified": 1794673466441,
+ "settings": {
+  "width": 1080,
+  "height": 1350,
+  "fps": 30.0,
+  "duration": 31000,
+  "bg": "#FF06060B"
+ },
+ "media": [
+  {
+   "path": "/tmp/pd_assets/cart_mm3.mp4",
+   "filename": "cart_mm3.mp4",
+   "kind": "video",
+   "width": 720,
+   "height": 480,
+   "duration_ms": 20000,
+   "fps": 30.0,
+   "has_audio": false,
+   "id": 1,
+   "project_dir": "/tmp/pd_assets"
+  },
+  {
+   "path": "/tmp/pd_assets/cart_mm2.mp4",
+   "filename": "cart_mm2.mp4",
+   "kind": "video",
+   "width": 720,
+   "height": 480,
+   "duration_ms": 20000,
+   "fps": 30.0,
+   "has_audio": false,
+   "id": 2,
+   "project_dir": "/tmp/pd_assets"
+  },
+  {
+   "path": "/tmp/pd_assets/cart_mm.mp4",
+   "filename": "cart_mm.mp4",
+   "kind": "video",
+   "width": 720,
+   "height": 480,
+   "duration_ms": 20000,
+   "fps": 30.0,
+   "has_audio": false,
+   "id": 3,
+   "project_dir": "/tmp/pd_assets"
+  },
+  {
+   "path": "/tmp/pd_assets/cart_ee2.mp4",
+   "filename": "cart_ee2.mp4",
+   "kind": "video",
+   "width": 720,
+   "height": 480,
+   "duration_ms": 19970,
+   "fps": 30.0,
+   "has_audio": false,
+   "id": 4,
+   "project_dir": "/tmp/pd_assets"
+  },
+  {
+   "path": "/tmp/pd_assets/cart_ee3.mp4",
+   "filename": "cart_ee3.mp4",
+   "kind": "video",
+   "width": 720,
+   "height": 480,
+   "duration_ms": 19970,
+   "fps": 30.0,
+   "has_audio": false,
+   "id": 5,
+   "project_dir": "/tmp/pd_assets"
+  },
+  {
+   "path": "/tmp/pd_assets/cart_ee.mp4",
+   "filename": "cart_ee.mp4",
+   "kind": "video",
+   "width": 720,
+   "height": 480,
+   "duration_ms": 20000,
+   "fps": 30.0,
+   "has_audio": false,
+   "id": 6,
+   "project_dir": "/tmp/pd_assets"
+  },
+  {
+   "path": "/tmp/pd_assets/solarflare.mp4",
+   "filename": "solarflare.mp4",
+   "kind": "video",
+   "width": 1280,
+   "height": 720,
+   "duration_ms": 79570,
+   "fps": 30.0,
+   "has_audio": true,
+   "id": 7,
+   "project_dir": "/tmp/pd_assets"
+  },
+  {
+   "path": "/tmp/pd_assets/blackhole.mp4",
+   "filename": "blackhole.mp4",
+   "kind": "video",
+   "width": 1280,
+   "height": 720,
+   "duration_ms": 133420,
+   "fps": 30.0,
+   "has_audio": true,
+   "id": 8,
+   "project_dir": "/tmp/pd_assets"
+  },
+  {
+   "path": "/tmp/pd_assets/phonk.mp3",
+   "filename": "phonk.mp3",
+   "kind": "audio",
+   "width": 800,
+   "height": 800,
+   "duration_ms": 181760,
+   "fps": 0.0,
+   "has_audio": true,
+   "id": 9,
+   "project_dir": "/tmp/pd_assets"
+  }
+ ],
+ "layers": [
+  {
+   "kind": "audio",
+   "name": "Midnight Club \u00b7 Alec Penn Radio (CC0)",
+   "start": 0,
+   "end": 31000,
+   "media_id": 9,
+   "z": 0.0,
+   "intensity": 0.6,
+   "volume": 1.0,
+   "id": 10,
+   "hidden": false,
+   "locked": false,
+   "blend": "normal",
+   "parent": null,
+   "effects": [],
+   "keys": {},
+   "transform": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "anchor": [
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.0,
+     1.0
+    ],
+    "skew": [
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0
+    ],
+    "opacity": [
+     1.0
+    ]
+   },
+   "masks": [],
+   "styles": [],
+   "expressions": {},
+   "audio_fx": [],
+   "ui": {},
+   "source_in": 0,
+   "fade_in": 0,
+   "fade_out": 0
+  },
+  {
+   "kind": "text",
+   "name": "SIGNAL",
+   "start": 0,
+   "end": 2300,
+   "z": 0.0,
+   "color": "#FFFFFFFF",
+   "text": "SIGNAL",
+   "intensity": 0.6,
+   "size": 196,
+   "font": "",
+   "transform": {
+    "pos": [
+     540.0,
+     492.75,
+     0.0
+    ],
+    "anchor": [
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.0,
+     1.0
+    ],
+    "skew": [
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0
+    ],
+    "opacity": [
+     1.0
+    ]
+   },
+   "id": 11,
+   "hidden": false,
+   "locked": false,
+   "blend": "normal",
+   "parent": null,
+   "effects": [
+    {
+     "type": "rgb_split",
+     "enabled": true,
+     "params": {
+      "offset": 9.0,
+      "angle": 0.0,
+      "animate": true
+     },
+     "keys": {}
+    },
+    {
+     "type": "oscillate",
+     "enabled": true,
+     "params": {
+      "mag": 2.5,
+      "freq": 4.0,
+      "angle": 90.0,
+      "phase": 0.0,
+      "direction": 0
+     },
+     "keys": {}
+    }
+   ],
+   "keys": {
+    "scale": [
+     {
+      "t": 0,
+      "v": [
+       1.0,
+       1.0
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 1140,
+      "v": [
+       1.09,
+       1.09
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 1230,
+      "v": [
+       1.0,
+       1.0
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 2300,
+      "v": [
+       1.0,
+       1.0
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     }
+    ]
+   },
+   "masks": [],
+   "styles": [],
+   "expressions": {},
+   "audio_fx": [],
+   "ui": {},
+   "align": "center",
+   "wrap": 900,
+   "line_height": 1.15,
+   "stroke_color": "#00000000",
+   "stroke_width": 0,
+   "shadow": 0,
+   "text_animators": [
+    {
+     "selector": {
+      "type": "range",
+      "start": 0,
+      "end": 100,
+      "keys": {
+       "start": [
+        {
+         "t": 0,
+         "v": [
+          0
+         ],
+         "e": "linear"
+        },
+        {
+         "t": 700,
+         "v": [
+          100
+         ],
+         "e": "ease_out"
+        }
+       ]
+      }
+     },
+     "params": {
+      "y": -70,
+      "opacity": 0,
+      "rotation": -6
+     },
+     "enabled": true
+    }
+   ]
+  },
+  {
+   "kind": "text",
+   "name": "NOISE",
+   "start": 250,
+   "end": 2300,
+   "z": 0.0,
+   "color": "#FF35E5FF",
+   "text": "/ NOISE",
+   "intensity": 0.6,
+   "size": 92,
+   "font": "",
+   "transform": {
+    "pos": [
+     540.0,
+     641.25,
+     0.0
+    ],
+    "anchor": [
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.0,
+     1.0
+    ],
+    "skew": [
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0
+    ],
+    "opacity": [
+     1.0
+    ]
+   },
+   "id": 12,
+   "hidden": false,
+   "locked": false,
+   "blend": "normal",
+   "parent": null,
+   "effects": [
+    {
+     "type": "rgb_split",
+     "enabled": true,
+     "params": {
+      "offset": 9.0,
+      "angle": 0.0,
+      "animate": true
+     },
+     "keys": {}
+    },
+    {
+     "type": "oscillate",
+     "enabled": true,
+     "params": {
+      "mag": 2.5,
+      "freq": 4.0,
+      "angle": 90.0,
+      "phase": 0.0,
+      "direction": 0
+     },
+     "keys": {}
+    }
+   ],
+   "keys": {
+    "scale": [
+     {
+      "t": 0,
+      "v": [
+       1.0,
+       1.0
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 1140,
+      "v": [
+       1.09,
+       1.09
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 1230,
+      "v": [
+       1.0,
+       1.0
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 2300,
+      "v": [
+       1.0,
+       1.0
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     }
+    ]
+   },
+   "masks": [],
+   "styles": [],
+   "expressions": {},
+   "audio_fx": [],
+   "ui": {},
+   "align": "center",
+   "wrap": 900,
+   "line_height": 1.15,
+   "stroke_color": "#00000000",
+   "stroke_width": 0,
+   "shadow": 0,
+   "text_animators": [
+    {
+     "selector": {
+      "type": "range",
+      "start": 0,
+      "end": 100,
+      "keys": {
+       "start": [
+        {
+         "t": 0,
+         "v": [
+          0
+         ],
+         "e": "linear"
+        },
+        {
+         "t": 1200,
+         "v": [
+          100
+         ],
+         "e": "linear"
+        }
+       ]
+      }
+     },
+     "params": {
+      "opacity": 0,
+      "y": 6
+     },
+     "enabled": true
+    }
+   ]
+  },
+  {
+   "kind": "text",
+   "name": "tag",
+   "start": 600,
+   "end": 2300,
+   "z": 0.0,
+   "color": "#FFA9B9CC",
+   "text": "public-domain footage \u00b7 cc0 music \u00b7 am presets by samuifx",
+   "intensity": 0.6,
+   "size": 22,
+   "font": "",
+   "transform": {
+    "pos": [
+     540.0,
+     722.25,
+     0.0
+    ],
+    "anchor": [
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.0,
+     1.0
+    ],
+    "skew": [
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0
+    ],
+    "opacity": [
+     1.0
+    ]
+   },
+   "id": 13,
+   "hidden": false,
+   "locked": false,
+   "blend": "normal",
+   "parent": null,
+   "effects": [],
+   "keys": {},
+   "masks": [],
+   "styles": [],
+   "expressions": {},
+   "audio_fx": [],
+   "ui": {},
+   "align": "center",
+   "wrap": 900,
+   "line_height": 1.15,
+   "stroke_color": "#00000000",
+   "stroke_width": 0,
+   "shadow": 0,
+   "text_animators": []
+  },
+  {
+   "kind": "video",
+   "name": "jewels \u00b7 thermal",
+   "start": 2300,
+   "end": 7000,
+   "media_id": 1,
+   "z": 0.0,
+   "intensity": 0.6,
+   "fit": "cover",
+   "transform": {
+    "pos": [
+     540.0,
+     675.0,
+     0.0
+    ],
+    "anchor": [
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.0,
+     1.0
+    ],
+    "skew": [
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0
+    ],
+    "opacity": [
+     1.0
+    ]
+   },
+   "id": 14,
+   "hidden": false,
+   "locked": false,
+   "blend": "normal",
+   "parent": null,
+   "effects": [
+    {
+     "type": "thermal",
+     "src_id": "com.alightcreative.effects.colorhot",
+     "params": {
+      "tint_high": [
+       -59.379765,
+       1.0,
+       0.0
+      ],
+      "tint": [
+       -59.235435,
+       1.0,
+       0.0
+      ]
+     },
+     "keys": {},
+     "enabled": true
+    },
+    {
+     "type": "glow",
+     "src_id": "com.alightcreative.effects.edgeglow",
+     "params": {
+      "smoothing": 5.0,
+      "threshold": 0.7,
+      "invert": false,
+      "strength": 0.1,
+      "spread": 1.5,
+      "fillColor": "#FF0088FF",
+      "blend": 0.0,
+      "gamma": 1.0,
+      "brightness": 0.0,
+      "tintColor": "#FF000000",
+      "tint": 0.0
+     },
+     "keys": {},
+     "enabled": true
+    },
+    {
+     "type": "thermal",
+     "enabled": true,
+     "params": {
+      "amount": 1.0
+     },
+     "keys": {}
+    },
+    {
+     "type": "glow",
+     "enabled": true,
+     "params": {
+      "radius": 26.0,
+      "strength": 0.7,
+      "threshold": 0.35,
+      "color": "#FFFFFFFF",
+      "use_color": false
+     },
+     "keys": {}
+    },
+    {
+     "type": "scanlines",
+     "enabled": true,
+     "params": {
+      "intensity": 0.18,
+      "period": 3.0
+     },
+     "keys": {}
+    }
+   ],
+   "keys": {
+    "pos": [
+     {
+      "t": 2300,
+      "v": [
+       540.0,
+       715.0,
+       0.0
+      ],
+      "e": null
+     },
+     {
+      "t": 7000,
+      "v": [
+       540.0,
+       635.0,
+       0.0
+      ],
+      "e": null
+     }
+    ],
+    "scale": [
+     {
+      "t": 2300,
+      "v": [
+       1.3,
+       1.3
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 2540,
+      "v": [
+       1.42,
+       1.42
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 2640,
+      "v": [
+       1.3,
+       1.3
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 2980,
+      "v": [
+       1.42,
+       1.42
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 3080,
+      "v": [
+       1.3,
+       1.3
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 3460,
+      "v": [
+       1.42,
+       1.42
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 3560,
+      "v": [
+       1.3,
+       1.3
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 3660,
+      "v": [
+       1.42,
+       1.42
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 3760,
+      "v": [
+       1.3,
+       1.3
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 3880,
+      "v": [
+       1.42,
+       1.42
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 3980,
+      "v": [
+       1.3,
+       1.3
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 4240,
+      "v": [
+       1.42,
+       1.42
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 4340,
+      "v": [
+       1.3,
+       1.3
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 4440,
+      "v": [
+       1.42,
+       1.42
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 4540,
+      "v": [
+       1.3,
+       1.3
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 4760,
+      "v": [
+       1.42,
+       1.42
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 4860,
+      "v": [
+       1.3,
+       1.3
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 5020,
+      "v": [
+       1.42,
+       1.42
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 5120,
+      "v": [
+       1.3,
+       1.3
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 5300,
+      "v": [
+       1.42,
+       1.42
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 5400,
+      "v": [
+       1.3,
+       1.3
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 5520,
+      "v": [
+       1.42,
+       1.42
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 5620,
+      "v": [
+       1.3,
+       1.3
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 5740,
+      "v": [
+       1.42,
+       1.42
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 5840,
+      "v": [
+       1.3,
+       1.3
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 5960,
+      "v": [
+       1.42,
+       1.42
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 6060,
+      "v": [
+       1.3,
+       1.3
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 6220,
+      "v": [
+       1.42,
+       1.42
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 6320,
+      "v": [
+       1.3,
+       1.3
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 6660,
+      "v": [
+       1.42,
+       1.42
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 6760,
+      "v": [
+       1.3,
+       1.3
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 6840,
+      "v": [
+       1.42,
+       1.42
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 6940,
+      "v": [
+       1.3,
+       1.3
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 7000,
+      "v": [
+       1.3,
+       1.3
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     }
+    ]
+   },
+   "masks": [],
+   "styles": [],
+   "expressions": {},
+   "audio_fx": [],
+   "ui": {},
+   "source_in": 10500,
+   "speed": 1.0
+  },
+  {
+   "kind": "text",
+   "name": "n01",
+   "start": 2300,
+   "end": 7000,
+   "z": 0.0,
+   "color": "#5535E5FF",
+   "text": "01",
+   "intensity": 0.6,
+   "size": 260,
+   "font": "",
+   "transform": {
+    "pos": [
+     540.0,
+     405.0,
+     0.0
+    ],
+    "anchor": [
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.0,
+     1.0
+    ],
+    "skew": [
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0
+    ],
+    "opacity": [
+     1.0
+    ]
+   },
+   "id": 15,
+   "hidden": false,
+   "locked": false,
+   "blend": "normal",
+   "parent": null,
+   "effects": [],
+   "keys": {},
+   "masks": [],
+   "styles": [],
+   "expressions": {},
+   "audio_fx": [],
+   "ui": {},
+   "align": "center",
+   "wrap": 900,
+   "line_height": 1.15,
+   "stroke_color": "#00000000",
+   "stroke_width": 0,
+   "shadow": 0,
+   "text_animators": []
+  },
+  {
+   "kind": "text",
+   "name": "s02",
+   "start": 2600,
+   "end": 7000,
+   "z": 0.0,
+   "color": "#FFFFFFFF",
+   "text": "THE MECHANICAL\nMONSTERS",
+   "intensity": 0.6,
+   "size": 70,
+   "font": "",
+   "transform": {
+    "pos": [
+     540.0,
+     1053.0,
+     0.0
+    ],
+    "anchor": [
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.0,
+     1.0
+    ],
+    "skew": [
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0
+    ],
+    "opacity": [
+     1.0
+    ]
+   },
+   "id": 16,
+   "hidden": false,
+   "locked": false,
+   "blend": "normal",
+   "parent": null,
+   "effects": [],
+   "keys": {},
+   "masks": [],
+   "styles": [],
+   "expressions": {},
+   "audio_fx": [],
+   "ui": {},
+   "align": "center",
+   "wrap": 900,
+   "line_height": 1.15,
+   "stroke_color": "#00000000",
+   "stroke_width": 0,
+   "shadow": 0,
+   "text_animators": [
+    {
+     "selector": {
+      "type": "range",
+      "start": 0,
+      "end": 100,
+      "keys": {
+       "start": [
+        {
+         "t": 0,
+         "v": [
+          0
+         ],
+         "e": "linear"
+        },
+        {
+         "t": 700,
+         "v": [
+          100
+         ],
+         "e": "ease_out"
+        }
+       ]
+      }
+     },
+     "params": {
+      "y": -70,
+      "opacity": 0,
+      "rotation": -6
+     },
+     "enabled": true
+    }
+   ]
+  },
+  {
+   "kind": "video",
+   "name": "headline",
+   "start": 7000,
+   "end": 10300,
+   "media_id": 2,
+   "z": 0.0,
+   "intensity": 0.6,
+   "fit": "contain",
+   "transform": {
+    "pos": [
+     540.0,
+     675.0,
+     0.0
+    ],
+    "anchor": [
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.0,
+     1.0
+    ],
+    "skew": [
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0
+    ],
+    "opacity": [
+     1.0
+    ]
+   },
+   "id": 17,
+   "hidden": false,
+   "locked": false,
+   "blend": "normal",
+   "parent": null,
+   "effects": [
+    {
+     "type": "levels",
+     "src_id": "com.alightcreative.effects.lift",
+     "params": {
+      "black": 0.0
+     },
+     "keys": {},
+     "enabled": true
+    },
+    {
+     "type": "exposure",
+     "src_id": "com.alightcreative.effects.exposure",
+     "params": {
+      "gamma": 0.56,
+      "offset": 0.0
+     },
+     "keys": {
+      "exposure": [
+       {
+        "t": -21,
+        "v": [
+         0.0
+        ],
+        "e": null
+       },
+       {
+        "t": 466,
+        "v": [
+         1.0
+        ],
+        "e": null
+       },
+       {
+        "t": 928,
+        "v": [
+         0.0
+        ],
+        "e": null
+       }
+      ]
+     },
+     "enabled": true
+    },
+    {
+     "type": "halftone",
+     "enabled": true,
+     "params": {
+      "dot": 4.0,
+      "angle": 45.0,
+      "color": "#FF000000"
+     },
+     "keys": {}
+    },
+    {
+     "type": "paper_texture",
+     "enabled": true,
+     "params": {
+      "grain": 0.18,
+      "fibre": 0.3
+     },
+     "keys": {}
+    }
+   ],
+   "keys": {
+    "pos": [
+     {
+      "t": 7000,
+      "v": [
+       524.0,
+       753.0,
+       0.0
+      ],
+      "e": null
+     },
+     {
+      "t": 10300,
+      "v": [
+       556.0,
+       763.0,
+       0.0
+      ],
+      "e": null
+     }
+    ],
+    "scale": [
+     {
+      "t": 7000,
+      "v": [
+       1.0,
+       1.0
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 7140,
+      "v": [
+       1.06,
+       1.06
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 7230,
+      "v": [
+       1.0,
+       1.0
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 7360,
+      "v": [
+       1.06,
+       1.06
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 7450,
+      "v": [
+       1.0,
+       1.0
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 7540,
+      "v": [
+       1.06,
+       1.06
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 7630,
+      "v": [
+       1.0,
+       1.0
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 8040,
+      "v": [
+       1.06,
+       1.06
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 8130,
+      "v": [
+       1.0,
+       1.0
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 8500,
+      "v": [
+       1.06,
+       1.06
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 8590,
+      "v": [
+       1.0,
+       1.0
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 8900,
+      "v": [
+       1.06,
+       1.06
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 8990,
+      "v": [
+       1.0,
+       1.0
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 9400,
+      "v": [
+       1.06,
+       1.06
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 9490,
+      "v": [
+       1.0,
+       1.0
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 10300,
+      "v": [
+       1.0,
+       1.0
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     }
+    ]
+   },
+   "masks": [],
+   "styles": [],
+   "expressions": {},
+   "audio_fx": [],
+   "ui": {},
+   "source_in": 500,
+   "speed": 1.0
+  },
+  {
+   "kind": "text",
+   "name": "ticker",
+   "start": 7000,
+   "end": 10300,
+   "z": 0.0,
+   "color": "#FFFFE066",
+   "text": "EXHIBIT OPENS TO-DAY",
+   "intensity": 0.6,
+   "size": 52,
+   "font": "",
+   "transform": {
+    "pos": [
+     540.0,
+     155.25,
+     0.0
+    ],
+    "anchor": [
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.0,
+     1.0
+    ],
+    "skew": [
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0
+    ],
+    "opacity": [
+     1.0
+    ]
+   },
+   "id": 18,
+   "hidden": false,
+   "locked": false,
+   "blend": "normal",
+   "parent": null,
+   "effects": [],
+   "keys": {},
+   "masks": [],
+   "styles": [],
+   "expressions": {},
+   "audio_fx": [],
+   "ui": {},
+   "align": "center",
+   "wrap": 900,
+   "line_height": 1.15,
+   "stroke_color": "#00000000",
+   "stroke_width": 0,
+   "shadow": 0,
+   "text_animators": [
+    {
+     "selector": {
+      "type": "range",
+      "start": 0,
+      "end": 100,
+      "keys": {
+       "start": [
+        {
+         "t": 0,
+         "v": [
+          0
+         ],
+         "e": "linear"
+        },
+        {
+         "t": 1200,
+         "v": [
+          100
+         ],
+         "e": "linear"
+        }
+       ]
+      }
+     },
+     "params": {
+      "opacity": 0,
+      "y": 6
+     },
+     "enabled": true
+    }
+   ]
+  },
+  {
+   "kind": "text",
+   "name": "subline",
+   "start": 7220,
+   "end": 10300,
+   "z": 0.0,
+   "color": "#B4FFFFFF",
+   "text": "THE MECHANICAL MONSTERS",
+   "intensity": 0.6,
+   "size": 24,
+   "font": "",
+   "transform": {
+    "pos": [
+     540.0,
+     222.75,
+     0.0
+    ],
+    "anchor": [
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.0,
+     1.0
+    ],
+    "skew": [
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0
+    ],
+    "opacity": [
+     1.0
+    ]
+   },
+   "id": 19,
+   "hidden": false,
+   "locked": false,
+   "blend": "normal",
+   "parent": null,
+   "effects": [],
+   "keys": {},
+   "masks": [],
+   "styles": [],
+   "expressions": {},
+   "audio_fx": [],
+   "ui": {},
+   "align": "center",
+   "wrap": 900,
+   "line_height": 1.15,
+   "stroke_color": "#00000000",
+   "stroke_width": 0,
+   "shadow": 0,
+   "text_animators": []
+  },
+  {
+   "kind": "video",
+   "name": "headline burst",
+   "start": 9820,
+   "end": 10300,
+   "media_id": 2,
+   "z": 0.0,
+   "intensity": 0.6,
+   "fit": "contain",
+   "transform": {
+    "pos": [
+     540.0,
+     675.0,
+     0.0
+    ],
+    "anchor": [
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.0,
+     1.0
+    ],
+    "skew": [
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0
+    ],
+    "opacity": [
+     1.0
+    ]
+   },
+   "id": 20,
+   "hidden": false,
+   "locked": false,
+   "blend": "normal",
+   "parent": null,
+   "effects": [
+    {
+     "type": "turbulence",
+     "enabled": true,
+     "params": {
+      "intensity": 0.22,
+      "scale": 26.0,
+      "evolution": 0.2,
+      "octaves": 3.0,
+      "seed": 0.0
+     },
+     "keys": {}
+    },
+    {
+     "type": "rgb_split",
+     "enabled": true,
+     "params": {
+      "offset": 6.0,
+      "angle": 0.0,
+      "animate": true
+     },
+     "keys": {}
+    }
+   ],
+   "keys": {},
+   "masks": [],
+   "styles": [],
+   "expressions": {},
+   "audio_fx": [],
+   "ui": {},
+   "source_in": 0,
+   "speed": 1.0
+  },
+  {
+   "kind": "video",
+   "name": "cut01 \u00b7 jewels",
+   "start": 10360,
+   "end": 11280,
+   "media_id": 1,
+   "z": 0.0,
+   "intensity": 0.6,
+   "fit": "cover",
+   "transform": {
+    "pos": [
+     540.0,
+     675.0,
+     0.0
+    ],
+    "anchor": [
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.0,
+     1.0
+    ],
+    "skew": [
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0
+    ],
+    "opacity": [
+     1.0
+    ]
+   },
+   "id": 21,
+   "hidden": false,
+   "locked": false,
+   "blend": "normal",
+   "parent": null,
+   "effects": [
+    {
+     "type": "tile",
+     "src_id": "com.alightcreative.effects.tile",
+     "params": {
+      "scale": 1.0,
+      "phase": 0.0,
+      "mirror": true,
+      "vertoffs": false,
+      "angle": 0.0
+     },
+     "keys": {},
+     "enabled": true
+    },
+    {
+     "type": "exposure",
+     "src_id": "com.alightcreative.effects.exposure",
+     "params": {
+      "gamma": 1.28,
+      "offset": 0.0
+     },
+     "keys": {
+      "exposure": [
+       {
+        "t": 0,
+        "v": [
+         0.4
+        ],
+        "e": null
+       },
+       {
+        "t": 525,
+        "v": [
+         0.0
+        ],
+        "e": [
+         0.0,
+         0.51617646,
+         0.0,
+         1.0
+        ]
+       },
+       {
+        "t": 1000,
+        "v": [
+         0.41
+        ],
+        "e": [
+         1.0,
+         0.0,
+         1.0,
+         0.41764706
+        ]
+       }
+      ]
+     },
+     "enabled": true
+    },
+    {
+     "type": "blur",
+     "src_id": "com.alightcreative.effects.gaussianblur",
+     "params": {},
+     "keys": {
+      "strength": [
+       {
+        "t": 0,
+        "v": [
+         0.1
+        ],
+        "e": null
+       },
+       {
+        "t": 525,
+        "v": [
+         0.0
+        ],
+        "e": [
+         0.0,
+         1.0,
+         0.0,
+         1.0
+        ]
+       },
+       {
+        "t": 1000,
+        "v": [
+         0.08
+        ],
+        "e": [
+         1.0,
+         0.0,
+         1.0,
+         0.0
+        ]
+       }
+      ]
+     },
+     "enabled": true
+    },
+    {
+     "type": "rgb_split",
+     "enabled": true,
+     "params": {
+      "offset": 14.0,
+      "angle": 0.0,
+      "animate": true
+     },
+     "keys": {}
+    }
+   ],
+   "keys": {
+    "scale": [
+     {
+      "t": 10360,
+      "v": [
+       1.06,
+       1.06
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 10800,
+      "v": [
+       1.16,
+       1.16
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 10860,
+      "v": [
+       1.06,
+       1.06
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 11280,
+      "v": [
+       1.06,
+       1.06
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     }
+    ]
+   },
+   "masks": [],
+   "styles": [],
+   "expressions": {},
+   "audio_fx": [],
+   "ui": {},
+   "source_in": 11300,
+   "speed": 1.0
+  },
+  {
+   "kind": "video",
+   "name": "cut02 \u00b7 machine",
+   "start": 11280,
+   "end": 11700,
+   "media_id": 6,
+   "z": 0.0,
+   "intensity": 0.6,
+   "fit": "cover",
+   "transform": {
+    "pos": [
+     540.0,
+     675.0,
+     0.0
+    ],
+    "anchor": [
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.0,
+     1.0
+    ],
+    "skew": [
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0
+    ],
+    "opacity": [
+     1.0
+    ]
+   },
+   "id": 22,
+   "hidden": false,
+   "locked": false,
+   "blend": "normal",
+   "parent": null,
+   "effects": [
+    {
+     "type": "exposure",
+     "src_id": "com.alightcreative.effects.exposure",
+     "params": {
+      "gamma": 1.28,
+      "offset": 0.0
+     },
+     "keys": {
+      "exposure": [
+       {
+        "t": 0,
+        "v": [
+         0.4
+        ],
+        "e": null
+       },
+       {
+        "t": 448,
+        "v": [
+         0.0
+        ],
+        "e": null
+       }
+      ]
+     },
+     "enabled": true
+    },
+    {
+     "type": "tile",
+     "src_id": "com.alightcreative.effects.tile",
+     "params": {
+      "scale": 1.0,
+      "phase": 0.0,
+      "mirror": true,
+      "vertoffs": false,
+      "angle": 0.0
+     },
+     "keys": {},
+     "enabled": true
+    },
+    {
+     "type": "motion_blur",
+     "src_id": "com.alightcreative.effects.motionblur4",
+     "params": {
+      "tune": 1.4,
+      "usePos": true,
+      "useScale": true,
+      "useAngle": true
+     },
+     "keys": {},
+     "enabled": true
+    },
+    {
+     "type": "rgb_split",
+     "enabled": true,
+     "params": {
+      "offset": 14.0,
+      "angle": 0.0,
+      "animate": true
+     },
+     "keys": {}
+    }
+   ],
+   "keys": {
+    "scale": [
+     {
+      "t": 11280,
+      "v": [
+       1.06,
+       1.06
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 11520,
+      "v": [
+       1.16,
+       1.16
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 11580,
+      "v": [
+       1.06,
+       1.06
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 11700,
+      "v": [
+       1.06,
+       1.06
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     }
+    ]
+   },
+   "masks": [],
+   "styles": [],
+   "expressions": {},
+   "audio_fx": [],
+   "ui": {},
+   "source_in": 5100,
+   "speed": 1.0
+  },
+  {
+   "kind": "video",
+   "name": "cut03 \u00b7 whiteout",
+   "start": 11700,
+   "end": 12060,
+   "media_id": 5,
+   "z": 0.0,
+   "intensity": 0.6,
+   "fit": "cover",
+   "transform": {
+    "pos": [
+     540.0,
+     675.0,
+     0.0
+    ],
+    "anchor": [
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.0,
+     1.0
+    ],
+    "skew": [
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0
+    ],
+    "opacity": [
+     1.0
+    ]
+   },
+   "id": 23,
+   "hidden": false,
+   "locked": false,
+   "blend": "normal",
+   "parent": null,
+   "effects": [
+    {
+     "type": "tile",
+     "src_id": "com.alightcreative.effects.tile",
+     "params": {
+      "scale": 1.0,
+      "phase": 0.0,
+      "mirror": true,
+      "vertoffs": false,
+      "angle": 0.0
+     },
+     "keys": {},
+     "enabled": true
+    },
+    {
+     "type": "exposure",
+     "src_id": "com.alightcreative.effects.exposure",
+     "params": {
+      "gamma": 1.28,
+      "offset": 0.0
+     },
+     "keys": {
+      "exposure": [
+       {
+        "t": 0,
+        "v": [
+         0.4
+        ],
+        "e": null
+       },
+       {
+        "t": 525,
+        "v": [
+         0.0
+        ],
+        "e": [
+         0.0,
+         0.51617646,
+         0.0,
+         1.0
+        ]
+       },
+       {
+        "t": 1000,
+        "v": [
+         0.41
+        ],
+        "e": [
+         1.0,
+         0.0,
+         1.0,
+         0.41764706
+        ]
+       }
+      ]
+     },
+     "enabled": true
+    },
+    {
+     "type": "blur",
+     "src_id": "com.alightcreative.effects.gaussianblur",
+     "params": {},
+     "keys": {
+      "strength": [
+       {
+        "t": 0,
+        "v": [
+         0.1
+        ],
+        "e": null
+       },
+       {
+        "t": 525,
+        "v": [
+         0.0
+        ],
+        "e": [
+         0.0,
+         1.0,
+         0.0,
+         1.0
+        ]
+       },
+       {
+        "t": 1000,
+        "v": [
+         0.08
+        ],
+        "e": [
+         1.0,
+         0.0,
+         1.0,
+         0.0
+        ]
+       }
+      ]
+     },
+     "enabled": true
+    },
+    {
+     "type": "rgb_split",
+     "enabled": true,
+     "params": {
+      "offset": 14.0,
+      "angle": 0.0,
+      "animate": true
+     },
+     "keys": {}
+    },
+    {
+     "type": "random_displace",
+     "enabled": true,
+     "params": {
+      "mag": 16.0,
+      "evolution": 2.0,
+      "seed": 0.0,
+      "scatter": 0.8
+     },
+     "keys": {}
+    }
+   ],
+   "keys": {
+    "scale": [
+     {
+      "t": 11700,
+      "v": [
+       1.06,
+       1.06
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 11880,
+      "v": [
+       1.16,
+       1.16
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 11940,
+      "v": [
+       1.06,
+       1.06
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 12060,
+      "v": [
+       1.06,
+       1.06
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     }
+    ]
+   },
+   "masks": [],
+   "styles": [],
+   "expressions": {},
+   "audio_fx": [],
+   "ui": {},
+   "source_in": 2900,
+   "speed": 1.0
+  },
+  {
+   "kind": "video",
+   "name": "cut04 \u00b7 door",
+   "start": 12060,
+   "end": 12500,
+   "media_id": 3,
+   "z": 0.0,
+   "intensity": 0.6,
+   "fit": "cover",
+   "transform": {
+    "pos": [
+     540.0,
+     675.0,
+     0.0
+    ],
+    "anchor": [
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.0,
+     1.0
+    ],
+    "skew": [
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0
+    ],
+    "opacity": [
+     1.0
+    ]
+   },
+   "id": 24,
+   "hidden": false,
+   "locked": false,
+   "blend": "normal",
+   "parent": null,
+   "effects": [
+    {
+     "type": "exposure",
+     "src_id": "com.alightcreative.effects.exposure",
+     "params": {
+      "gamma": 1.28,
+      "offset": 0.0
+     },
+     "keys": {
+      "exposure": [
+       {
+        "t": 0,
+        "v": [
+         0.4
+        ],
+        "e": null
+       },
+       {
+        "t": 448,
+        "v": [
+         0.0
+        ],
+        "e": null
+       }
+      ]
+     },
+     "enabled": true
+    },
+    {
+     "type": "tile",
+     "src_id": "com.alightcreative.effects.tile",
+     "params": {
+      "scale": 1.0,
+      "phase": 0.0,
+      "mirror": true,
+      "vertoffs": false,
+      "angle": 0.0
+     },
+     "keys": {},
+     "enabled": true
+    },
+    {
+     "type": "motion_blur",
+     "src_id": "com.alightcreative.effects.motionblur4",
+     "params": {
+      "tune": 1.4,
+      "usePos": true,
+      "useScale": true,
+      "useAngle": true
+     },
+     "keys": {},
+     "enabled": true
+    },
+    {
+     "type": "rgb_split",
+     "enabled": true,
+     "params": {
+      "offset": 14.0,
+      "angle": 0.0,
+      "animate": true
+     },
+     "keys": {}
+    }
+   ],
+   "keys": {
+    "scale": [
+     {
+      "t": 12060,
+      "v": [
+       1.06,
+       1.06
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 12320,
+      "v": [
+       1.16,
+       1.16
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 12380,
+      "v": [
+       1.06,
+       1.06
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 12500,
+      "v": [
+       1.06,
+       1.06
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     }
+    ]
+   },
+   "masks": [],
+   "styles": [],
+   "expressions": {},
+   "audio_fx": [],
+   "ui": {},
+   "source_in": 4200,
+   "speed": 1.0
+  },
+  {
+   "kind": "video",
+   "name": "cut05 \u00b7 lab",
+   "start": 12500,
+   "end": 12900,
+   "media_id": 4,
+   "z": 0.0,
+   "intensity": 0.6,
+   "fit": "cover",
+   "transform": {
+    "pos": [
+     540.0,
+     675.0,
+     0.0
+    ],
+    "anchor": [
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.0,
+     1.0
+    ],
+    "skew": [
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0
+    ],
+    "opacity": [
+     1.0
+    ]
+   },
+   "id": 25,
+   "hidden": false,
+   "locked": false,
+   "blend": "normal",
+   "parent": null,
+   "effects": [
+    {
+     "type": "tile",
+     "src_id": "com.alightcreative.effects.tile",
+     "params": {
+      "scale": 1.0,
+      "phase": 0.0,
+      "mirror": true,
+      "vertoffs": false,
+      "angle": 0.0
+     },
+     "keys": {},
+     "enabled": true
+    },
+    {
+     "type": "exposure",
+     "src_id": "com.alightcreative.effects.exposure",
+     "params": {
+      "gamma": 1.28,
+      "offset": 0.0
+     },
+     "keys": {
+      "exposure": [
+       {
+        "t": 0,
+        "v": [
+         0.4
+        ],
+        "e": null
+       },
+       {
+        "t": 525,
+        "v": [
+         0.0
+        ],
+        "e": [
+         0.0,
+         0.51617646,
+         0.0,
+         1.0
+        ]
+       },
+       {
+        "t": 1000,
+        "v": [
+         0.41
+        ],
+        "e": [
+         1.0,
+         0.0,
+         1.0,
+         0.41764706
+        ]
+       }
+      ]
+     },
+     "enabled": true
+    },
+    {
+     "type": "blur",
+     "src_id": "com.alightcreative.effects.gaussianblur",
+     "params": {},
+     "keys": {
+      "strength": [
+       {
+        "t": 0,
+        "v": [
+         0.1
+        ],
+        "e": null
+       },
+       {
+        "t": 525,
+        "v": [
+         0.0
+        ],
+        "e": [
+         0.0,
+         1.0,
+         0.0,
+         1.0
+        ]
+       },
+       {
+        "t": 1000,
+        "v": [
+         0.08
+        ],
+        "e": [
+         1.0,
+         0.0,
+         1.0,
+         0.0
+        ]
+       }
+      ]
+     },
+     "enabled": true
+    },
+    {
+     "type": "rgb_split",
+     "enabled": true,
+     "params": {
+      "offset": 14.0,
+      "angle": 0.0,
+      "animate": true
+     },
+     "keys": {}
+    }
+   ],
+   "keys": {
+    "scale": [
+     {
+      "t": 12500,
+      "v": [
+       1.06,
+       1.06
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 12720,
+      "v": [
+       1.16,
+       1.16
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 12780,
+      "v": [
+       1.06,
+       1.06
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 12900,
+      "v": [
+       1.06,
+       1.06
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     }
+    ]
+   },
+   "masks": [],
+   "styles": [],
+   "expressions": {},
+   "audio_fx": [],
+   "ui": {},
+   "source_in": 2500,
+   "speed": 1.0
+  },
+  {
+   "kind": "video",
+   "name": "cut06 \u00b7 jewels",
+   "start": 12900,
+   "end": 13400,
+   "media_id": 1,
+   "z": 0.0,
+   "intensity": 0.6,
+   "fit": "cover",
+   "transform": {
+    "pos": [
+     540.0,
+     675.0,
+     0.0
+    ],
+    "anchor": [
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.0,
+     1.0
+    ],
+    "skew": [
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0
+    ],
+    "opacity": [
+     1.0
+    ]
+   },
+   "id": 26,
+   "hidden": false,
+   "locked": false,
+   "blend": "normal",
+   "parent": null,
+   "effects": [
+    {
+     "type": "exposure",
+     "src_id": "com.alightcreative.effects.exposure",
+     "params": {
+      "gamma": 1.28,
+      "offset": 0.0
+     },
+     "keys": {
+      "exposure": [
+       {
+        "t": 0,
+        "v": [
+         0.4
+        ],
+        "e": null
+       },
+       {
+        "t": 448,
+        "v": [
+         0.0
+        ],
+        "e": null
+       }
+      ]
+     },
+     "enabled": true
+    },
+    {
+     "type": "tile",
+     "src_id": "com.alightcreative.effects.tile",
+     "params": {
+      "scale": 1.0,
+      "phase": 0.0,
+      "mirror": true,
+      "vertoffs": false,
+      "angle": 0.0
+     },
+     "keys": {},
+     "enabled": true
+    },
+    {
+     "type": "motion_blur",
+     "src_id": "com.alightcreative.effects.motionblur4",
+     "params": {
+      "tune": 1.4,
+      "usePos": true,
+      "useScale": true,
+      "useAngle": true
+     },
+     "keys": {},
+     "enabled": true
+    },
+    {
+     "type": "rgb_split",
+     "enabled": true,
+     "params": {
+      "offset": 14.0,
+      "angle": 0.0,
+      "animate": true
+     },
+     "keys": {}
+    },
+    {
+     "type": "random_displace",
+     "enabled": true,
+     "params": {
+      "mag": 16.0,
+      "evolution": 2.0,
+      "seed": 0.0,
+      "scatter": 0.8
+     },
+     "keys": {}
+    }
+   ],
+   "keys": {
+    "scale": [
+     {
+      "t": 12900,
+      "v": [
+       1.06,
+       1.06
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 13120,
+      "v": [
+       1.16,
+       1.16
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 13180,
+      "v": [
+       1.06,
+       1.06
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 13400,
+      "v": [
+       1.06,
+       1.06
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     }
+    ]
+   },
+   "masks": [],
+   "styles": [],
+   "expressions": {},
+   "audio_fx": [],
+   "ui": {},
+   "source_in": 12800,
+   "speed": 1.0
+  },
+  {
+   "kind": "video",
+   "name": "cut07 \u00b7 machine",
+   "start": 13400,
+   "end": 13820,
+   "media_id": 6,
+   "z": 0.0,
+   "intensity": 0.6,
+   "fit": "cover",
+   "transform": {
+    "pos": [
+     540.0,
+     675.0,
+     0.0
+    ],
+    "anchor": [
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.0,
+     1.0
+    ],
+    "skew": [
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0
+    ],
+    "opacity": [
+     1.0
+    ]
+   },
+   "id": 27,
+   "hidden": false,
+   "locked": false,
+   "blend": "normal",
+   "parent": null,
+   "effects": [
+    {
+     "type": "tile",
+     "src_id": "com.alightcreative.effects.tile",
+     "params": {
+      "scale": 1.0,
+      "phase": 0.0,
+      "mirror": true,
+      "vertoffs": false,
+      "angle": 0.0
+     },
+     "keys": {},
+     "enabled": true
+    },
+    {
+     "type": "exposure",
+     "src_id": "com.alightcreative.effects.exposure",
+     "params": {
+      "gamma": 1.28,
+      "offset": 0.0
+     },
+     "keys": {
+      "exposure": [
+       {
+        "t": 0,
+        "v": [
+         0.4
+        ],
+        "e": null
+       },
+       {
+        "t": 525,
+        "v": [
+         0.0
+        ],
+        "e": [
+         0.0,
+         0.51617646,
+         0.0,
+         1.0
+        ]
+       },
+       {
+        "t": 1000,
+        "v": [
+         0.41
+        ],
+        "e": [
+         1.0,
+         0.0,
+         1.0,
+         0.41764706
+        ]
+       }
+      ]
+     },
+     "enabled": true
+    },
+    {
+     "type": "blur",
+     "src_id": "com.alightcreative.effects.gaussianblur",
+     "params": {},
+     "keys": {
+      "strength": [
+       {
+        "t": 0,
+        "v": [
+         0.1
+        ],
+        "e": null
+       },
+       {
+        "t": 525,
+        "v": [
+         0.0
+        ],
+        "e": [
+         0.0,
+         1.0,
+         0.0,
+         1.0
+        ]
+       },
+       {
+        "t": 1000,
+        "v": [
+         0.08
+        ],
+        "e": [
+         1.0,
+         0.0,
+         1.0,
+         0.0
+        ]
+       }
+      ]
+     },
+     "enabled": true
+    },
+    {
+     "type": "rgb_split",
+     "enabled": true,
+     "params": {
+      "offset": 14.0,
+      "angle": 0.0,
+      "animate": true
+     },
+     "keys": {}
+    }
+   ],
+   "keys": {
+    "scale": [
+     {
+      "t": 13400,
+      "v": [
+       1.06,
+       1.06
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 13580,
+      "v": [
+       1.16,
+       1.16
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 13640,
+      "v": [
+       1.06,
+       1.06
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 13820,
+      "v": [
+       1.06,
+       1.06
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     }
+    ]
+   },
+   "masks": [],
+   "styles": [],
+   "expressions": {},
+   "audio_fx": [],
+   "ui": {},
+   "source_in": 6600,
+   "speed": 1.0
+  },
+  {
+   "kind": "video",
+   "name": "cut08 \u00b7 lab",
+   "start": 13820,
+   "end": 14260,
+   "media_id": 4,
+   "z": 0.0,
+   "intensity": 0.6,
+   "fit": "cover",
+   "transform": {
+    "pos": [
+     540.0,
+     675.0,
+     0.0
+    ],
+    "anchor": [
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.0,
+     1.0
+    ],
+    "skew": [
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0
+    ],
+    "opacity": [
+     1.0
+    ]
+   },
+   "id": 28,
+   "hidden": false,
+   "locked": false,
+   "blend": "normal",
+   "parent": null,
+   "effects": [
+    {
+     "type": "exposure",
+     "src_id": "com.alightcreative.effects.exposure",
+     "params": {
+      "gamma": 1.28,
+      "offset": 0.0
+     },
+     "keys": {
+      "exposure": [
+       {
+        "t": 0,
+        "v": [
+         0.4
+        ],
+        "e": null
+       },
+       {
+        "t": 448,
+        "v": [
+         0.0
+        ],
+        "e": null
+       }
+      ]
+     },
+     "enabled": true
+    },
+    {
+     "type": "tile",
+     "src_id": "com.alightcreative.effects.tile",
+     "params": {
+      "scale": 1.0,
+      "phase": 0.0,
+      "mirror": true,
+      "vertoffs": false,
+      "angle": 0.0
+     },
+     "keys": {},
+     "enabled": true
+    },
+    {
+     "type": "motion_blur",
+     "src_id": "com.alightcreative.effects.motionblur4",
+     "params": {
+      "tune": 1.4,
+      "usePos": true,
+      "useScale": true,
+      "useAngle": true
+     },
+     "keys": {},
+     "enabled": true
+    },
+    {
+     "type": "rgb_split",
+     "enabled": true,
+     "params": {
+      "offset": 14.0,
+      "angle": 0.0,
+      "animate": true
+     },
+     "keys": {}
+    }
+   ],
+   "keys": {
+    "scale": [
+     {
+      "t": 13820,
+      "v": [
+       1.06,
+       1.06
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 14040,
+      "v": [
+       1.16,
+       1.16
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 14100,
+      "v": [
+       1.06,
+       1.06
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 14260,
+      "v": [
+       1.06,
+       1.06
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     }
+    ]
+   },
+   "masks": [],
+   "styles": [],
+   "expressions": {},
+   "audio_fx": [],
+   "ui": {},
+   "source_in": 3400,
+   "speed": 1.0
+  },
+  {
+   "kind": "video",
+   "name": "cut09 \u00b7 jewels",
+   "start": 14260,
+   "end": 14940,
+   "media_id": 1,
+   "z": 0.0,
+   "intensity": 0.6,
+   "fit": "cover",
+   "transform": {
+    "pos": [
+     540.0,
+     675.0,
+     0.0
+    ],
+    "anchor": [
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.0,
+     1.0
+    ],
+    "skew": [
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0
+    ],
+    "opacity": [
+     1.0
+    ]
+   },
+   "id": 29,
+   "hidden": false,
+   "locked": false,
+   "blend": "normal",
+   "parent": null,
+   "effects": [
+    {
+     "type": "tile",
+     "src_id": "com.alightcreative.effects.tile",
+     "params": {
+      "scale": 1.0,
+      "phase": 0.0,
+      "mirror": true,
+      "vertoffs": false,
+      "angle": 0.0
+     },
+     "keys": {},
+     "enabled": true
+    },
+    {
+     "type": "exposure",
+     "src_id": "com.alightcreative.effects.exposure",
+     "params": {
+      "gamma": 1.28,
+      "offset": 0.0
+     },
+     "keys": {
+      "exposure": [
+       {
+        "t": 0,
+        "v": [
+         0.4
+        ],
+        "e": null
+       },
+       {
+        "t": 525,
+        "v": [
+         0.0
+        ],
+        "e": [
+         0.0,
+         0.51617646,
+         0.0,
+         1.0
+        ]
+       },
+       {
+        "t": 1000,
+        "v": [
+         0.41
+        ],
+        "e": [
+         1.0,
+         0.0,
+         1.0,
+         0.41764706
+        ]
+       }
+      ]
+     },
+     "enabled": true
+    },
+    {
+     "type": "blur",
+     "src_id": "com.alightcreative.effects.gaussianblur",
+     "params": {},
+     "keys": {
+      "strength": [
+       {
+        "t": 0,
+        "v": [
+         0.1
+        ],
+        "e": null
+       },
+       {
+        "t": 525,
+        "v": [
+         0.0
+        ],
+        "e": [
+         0.0,
+         1.0,
+         0.0,
+         1.0
+        ]
+       },
+       {
+        "t": 1000,
+        "v": [
+         0.08
+        ],
+        "e": [
+         1.0,
+         0.0,
+         1.0,
+         0.0
+        ]
+       }
+      ]
+     },
+     "enabled": true
+    },
+    {
+     "type": "rgb_split",
+     "enabled": true,
+     "params": {
+      "offset": 14.0,
+      "angle": 0.0,
+      "animate": true
+     },
+     "keys": {}
+    },
+    {
+     "type": "random_displace",
+     "enabled": true,
+     "params": {
+      "mag": 16.0,
+      "evolution": 2.0,
+      "seed": 0.0,
+      "scatter": 0.8
+     },
+     "keys": {}
+    }
+   ],
+   "keys": {
+    "scale": [
+     {
+      "t": 14260,
+      "v": [
+       1.06,
+       1.06
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 14600,
+      "v": [
+       1.16,
+       1.16
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 14660,
+      "v": [
+       1.06,
+       1.06
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 14940,
+      "v": [
+       1.06,
+       1.06
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     }
+    ]
+   },
+   "masks": [],
+   "styles": [],
+   "expressions": {},
+   "audio_fx": [],
+   "ui": {},
+   "source_in": 13700,
+   "speed": 1.0
+  },
+  {
+   "kind": "text",
+   "name": "flash-word",
+   "start": 10300,
+   "end": 15000,
+   "z": 0.0,
+   "color": "#FFFFFFFF",
+   "text": "FLASH",
+   "intensity": 0.6,
+   "size": 120,
+   "font": "",
+   "transform": {
+    "pos": [
+     540.0,
+     1161.0,
+     0.0
+    ],
+    "anchor": [
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.0,
+     1.0
+    ],
+    "skew": [
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0
+    ],
+    "opacity": [
+     1.0
+    ]
+   },
+   "id": 30,
+   "hidden": false,
+   "locked": false,
+   "blend": "normal",
+   "parent": null,
+   "effects": [],
+   "keys": {},
+   "masks": [],
+   "styles": [],
+   "expressions": {},
+   "audio_fx": [],
+   "ui": {},
+   "align": "center",
+   "wrap": 900,
+   "line_height": 1.15,
+   "stroke_color": "#00000000",
+   "stroke_width": 0,
+   "shadow": 0,
+   "text_animators": [
+    {
+     "selector": {
+      "type": "word",
+      "start": 0,
+      "end": 100,
+      "keys": {
+       "start": [
+        {
+         "t": 0,
+         "v": [
+          0
+         ],
+         "e": "linear"
+        },
+        {
+         "t": 600,
+         "v": [
+          100
+         ],
+         "e": "ease_out"
+        }
+       ]
+      }
+     },
+     "params": {
+      "scale": 150,
+      "opacity": 0
+     },
+     "enabled": true
+    }
+   ]
+  },
+  {
+   "kind": "video",
+   "name": "deep field",
+   "start": 15000,
+   "end": 19500,
+   "media_id": 7,
+   "z": 0.0,
+   "intensity": 0.6,
+   "fit": "cover",
+   "transform": {
+    "pos": [
+     540.0,
+     675.0,
+     0.0
+    ],
+    "anchor": [
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.0,
+     1.0
+    ],
+    "skew": [
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0
+    ],
+    "opacity": [
+     1.0
+    ]
+   },
+   "id": 31,
+   "hidden": false,
+   "locked": false,
+   "blend": "normal",
+   "parent": null,
+   "effects": [
+    {
+     "type": "tile",
+     "src_id": "com.alightcreative.effects.tile",
+     "params": {
+      "scale": 1.0,
+      "phase": 0.0,
+      "mirror": true,
+      "vertoffs": false,
+      "angle": 0.0
+     },
+     "keys": {},
+     "enabled": true
+    },
+    {
+     "type": "levels",
+     "src_id": "com.alightcreative.effects.lift",
+     "params": {
+      "black": 0.0
+     },
+     "keys": {},
+     "enabled": true
+    },
+    {
+     "type": "zoom_blur",
+     "src_id": "com.alightcreative.effects.zoomblur3",
+     "params": {
+      "adaptive": true
+     },
+     "keys": {
+      "centerPoint": [
+       {
+        "t": 0,
+        "v": [
+         6.0,
+         -97.0
+        ],
+        "e": null
+       },
+       {
+        "t": 661,
+        "v": [
+         -14.0,
+         -69.0
+        ],
+        "e": null
+       },
+       {
+        "t": 1000,
+        "v": [
+         -4.0,
+         -130.0
+        ],
+        "e": null
+       }
+      ],
+      "amount": [
+       {
+        "t": 0,
+        "v": [
+         1.0
+        ],
+        "e": null
+       },
+       {
+        "t": 661,
+        "v": [
+         0.0
+        ],
+        "e": [
+         0.0,
+         0.67,
+         0.0,
+         1.0
+        ]
+       },
+       {
+        "t": 1000,
+        "v": [
+         1.0
+        ],
+        "e": [
+         1.0,
+         0.0,
+         1.0,
+         0.46
+        ]
+       }
+      ]
+     },
+     "enabled": true
+    },
+    {
+     "type": "bloom",
+     "enabled": true,
+     "params": {
+      "threshold": 0.55,
+      "radius": 24.0,
+      "intensity": 0.55
+     },
+     "keys": {}
+    },
+    {
+     "type": "halation",
+     "enabled": true,
+     "params": {
+      "threshold": 0.55,
+      "radius": 30.0,
+      "color": "#FFFF5A2A",
+      "intensity": 0.45
+     },
+     "keys": {}
+    },
+    {
+     "type": "starfield",
+     "enabled": true,
+     "params": {
+      "count": 220,
+      "size": 1.8,
+      "twinkle": true,
+      "color": "#FFFFFFFF"
+     },
+     "keys": {}
+    }
+   ],
+   "keys": {
+    "pos": [
+     {
+      "t": 15000,
+      "v": [
+       470.0,
+       635.0,
+       0.0
+      ],
+      "e": null
+     },
+     {
+      "t": 19500,
+      "v": [
+       610.0,
+       715.0,
+       0.0
+      ],
+      "e": null
+     }
+    ],
+    "scale": [
+     {
+      "t": 15000,
+      "v": [
+       1.1,
+       1.1
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 15160,
+      "v": [
+       1.24,
+       1.24
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 15260,
+      "v": [
+       1.1,
+       1.1
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 15340,
+      "v": [
+       1.24,
+       1.24
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 15440,
+      "v": [
+       1.1,
+       1.1
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 15520,
+      "v": [
+       1.24,
+       1.24
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 15620,
+      "v": [
+       1.1,
+       1.1
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 15780,
+      "v": [
+       1.24,
+       1.24
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 15880,
+      "v": [
+       1.1,
+       1.1
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 16000,
+      "v": [
+       1.24,
+       1.24
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 16100,
+      "v": [
+       1.1,
+       1.1
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 16220,
+      "v": [
+       1.24,
+       1.24
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 16320,
+      "v": [
+       1.1,
+       1.1
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 16580,
+      "v": [
+       1.24,
+       1.24
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 16680,
+      "v": [
+       1.1,
+       1.1
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 16800,
+      "v": [
+       1.24,
+       1.24
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 16900,
+      "v": [
+       1.1,
+       1.1
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 17040,
+      "v": [
+       1.24,
+       1.24
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 17140,
+      "v": [
+       1.1,
+       1.1
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 17220,
+      "v": [
+       1.24,
+       1.24
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 17320,
+      "v": [
+       1.1,
+       1.1
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 17500,
+      "v": [
+       1.24,
+       1.24
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 17600,
+      "v": [
+       1.1,
+       1.1
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 17680,
+      "v": [
+       1.24,
+       1.24
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 17780,
+      "v": [
+       1.1,
+       1.1
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 17880,
+      "v": [
+       1.24,
+       1.24
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 17980,
+      "v": [
+       1.1,
+       1.1
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 18140,
+      "v": [
+       1.24,
+       1.24
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 18240,
+      "v": [
+       1.1,
+       1.1
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 18380,
+      "v": [
+       1.24,
+       1.24
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 18480,
+      "v": [
+       1.1,
+       1.1
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 18600,
+      "v": [
+       1.24,
+       1.24
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 18700,
+      "v": [
+       1.1,
+       1.1
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 19120,
+      "v": [
+       1.24,
+       1.24
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 19220,
+      "v": [
+       1.1,
+       1.1
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 19500,
+      "v": [
+       1.1,
+       1.1
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     }
+    ]
+   },
+   "masks": [],
+   "styles": [],
+   "expressions": {},
+   "audio_fx": [],
+   "ui": {},
+   "source_in": 70000,
+   "speed": 1.0
+  },
+  {
+   "kind": "text",
+   "name": "s05",
+   "start": 15400,
+   "end": 19500,
+   "z": 0.0,
+   "color": "#CCFFFFFF",
+   "text": "DEEP FIELD",
+   "intensity": 0.6,
+   "size": 44,
+   "font": "",
+   "transform": {
+    "pos": [
+     540.0,
+     1194.75,
+     0.0
+    ],
+    "anchor": [
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.0,
+     1.0
+    ],
+    "skew": [
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0
+    ],
+    "opacity": [
+     1.0
+    ]
+   },
+   "id": 32,
+   "hidden": false,
+   "locked": false,
+   "blend": "normal",
+   "parent": null,
+   "effects": [],
+   "keys": {},
+   "masks": [],
+   "styles": [],
+   "expressions": {},
+   "audio_fx": [],
+   "ui": {},
+   "align": "center",
+   "wrap": 900,
+   "line_height": 1.15,
+   "stroke_color": "#00000000",
+   "stroke_width": 0,
+   "shadow": 0,
+   "text_animators": [
+    {
+     "selector": {
+      "type": "range",
+      "start": 0,
+      "end": 100,
+      "keys": {
+       "start": [
+        {
+         "t": 0,
+         "v": [
+          0
+         ],
+         "e": "linear"
+        },
+        {
+         "t": 1200,
+         "v": [
+          100
+         ],
+         "e": "linear"
+        }
+       ]
+      }
+     },
+     "params": {
+      "opacity": 0,
+      "y": 6
+     },
+     "enabled": true
+    }
+   ]
+  },
+  {
+   "kind": "video",
+   "name": "event horizon",
+   "start": 19500,
+   "end": 24000,
+   "media_id": 8,
+   "z": 0.0,
+   "intensity": 0.6,
+   "fit": "cover",
+   "transform": {
+    "pos": [
+     540.0,
+     675.0,
+     0.0
+    ],
+    "anchor": [
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.0,
+     1.0
+    ],
+    "skew": [
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0
+    ],
+    "opacity": [
+     1.0
+    ]
+   },
+   "id": 33,
+   "hidden": false,
+   "locked": false,
+   "blend": "normal",
+   "parent": null,
+   "effects": [
+    {
+     "type": "exposure",
+     "src_id": "com.alightcreative.effects.exposure",
+     "params": {
+      "gamma": 0.6000000000000001,
+      "offset": 0.0
+     },
+     "keys": {
+      "exposure": [
+       {
+        "t": 0,
+        "v": [
+         0.4
+        ],
+        "e": null
+       },
+       {
+        "t": 525,
+        "v": [
+         0.0
+        ],
+        "e": [
+         0.0,
+         0.51617646,
+         0.0,
+         1.0
+        ]
+       },
+       {
+        "t": 1000,
+        "v": [
+         0.41
+        ],
+        "e": [
+         1.0,
+         0.0,
+         1.0,
+         0.41764706
+        ]
+       }
+      ]
+     },
+     "enabled": true
+    },
+    {
+     "type": "blur",
+     "src_id": "com.alightcreative.effects.gaussianblur",
+     "params": {},
+     "keys": {
+      "strength": [
+       {
+        "t": 0,
+        "v": [
+         0.1
+        ],
+        "e": null
+       },
+       {
+        "t": 525,
+        "v": [
+         0.0
+        ],
+        "e": [
+         0.0,
+         1.0,
+         0.0,
+         1.0
+        ]
+       },
+       {
+        "t": 1000,
+        "v": [
+         0.08
+        ],
+        "e": [
+         1.0,
+         0.0,
+         1.0,
+         0.0
+        ]
+       }
+      ]
+     },
+     "enabled": true
+    },
+    {
+     "type": "bloom",
+     "enabled": true,
+     "params": {
+      "threshold": 0.35,
+      "radius": 34.0,
+      "intensity": 1.1
+     },
+     "keys": {}
+    },
+    {
+     "type": "rgb_split",
+     "enabled": true,
+     "params": {
+      "offset": 11.0,
+      "angle": 0.0,
+      "animate": true
+     },
+     "keys": {}
+    },
+    {
+     "type": "lens_flare",
+     "enabled": true,
+     "params": {
+      "cx": 0.62,
+      "cy": 0.34,
+      "size": 0.4,
+      "intensity": 0.7,
+      "color": "#FFFFE6B0"
+     },
+     "keys": {}
+    }
+   ],
+   "keys": {
+    "pos": [
+     {
+      "t": 19500,
+      "v": [
+       540.0,
+       705.0,
+       0.0
+      ],
+      "e": null
+     },
+     {
+      "t": 24000,
+      "v": [
+       540.0,
+       645.0,
+       0.0
+      ],
+      "e": null
+     }
+    ],
+    "scale": [
+     {
+      "t": 19500,
+      "v": [
+       1.32,
+       1.32
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 19580,
+      "v": [
+       1.44,
+       1.44
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 19670,
+      "v": [
+       1.32,
+       1.32
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 20040,
+      "v": [
+       1.44,
+       1.44
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 20130,
+      "v": [
+       1.32,
+       1.32
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 20280,
+      "v": [
+       1.44,
+       1.44
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 20370,
+      "v": [
+       1.32,
+       1.32
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 20520,
+      "v": [
+       1.44,
+       1.44
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 20610,
+      "v": [
+       1.32,
+       1.32
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 20740,
+      "v": [
+       1.44,
+       1.44
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 20830,
+      "v": [
+       1.32,
+       1.32
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 20960,
+      "v": [
+       1.44,
+       1.44
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 21050,
+      "v": [
+       1.32,
+       1.32
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 21200,
+      "v": [
+       1.44,
+       1.44
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 21290,
+      "v": [
+       1.32,
+       1.32
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 21420,
+      "v": [
+       1.44,
+       1.44
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 21510,
+      "v": [
+       1.32,
+       1.32
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 21900,
+      "v": [
+       1.44,
+       1.44
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 21990,
+      "v": [
+       1.32,
+       1.32
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 22340,
+      "v": [
+       1.44,
+       1.44
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 22430,
+      "v": [
+       1.32,
+       1.32
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 22580,
+      "v": [
+       1.44,
+       1.44
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 22670,
+      "v": [
+       1.32,
+       1.32
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 22820,
+      "v": [
+       1.44,
+       1.44
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 22910,
+      "v": [
+       1.32,
+       1.32
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 23040,
+      "v": [
+       1.44,
+       1.44
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 23130,
+      "v": [
+       1.32,
+       1.32
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 23240,
+      "v": [
+       1.44,
+       1.44
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 23330,
+      "v": [
+       1.32,
+       1.32
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 23740,
+      "v": [
+       1.44,
+       1.44
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 23830,
+      "v": [
+       1.32,
+       1.32
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 24000,
+      "v": [
+       1.32,
+       1.32
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     }
+    ]
+   },
+   "masks": [],
+   "styles": [],
+   "expressions": {},
+   "audio_fx": [],
+   "ui": {},
+   "source_in": 95000,
+   "speed": 1.0
+  },
+  {
+   "kind": "text",
+   "name": "s06",
+   "start": 19700,
+   "end": 24000,
+   "z": 0.0,
+   "color": "#FFB9F2FF",
+   "text": "EVENT\nHORIZON",
+   "intensity": 0.6,
+   "size": 110,
+   "font": "",
+   "transform": {
+    "pos": [
+     540.0,
+     324.0,
+     0.0
+    ],
+    "anchor": [
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.0,
+     1.0
+    ],
+    "skew": [
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0
+    ],
+    "opacity": [
+     1.0
+    ]
+   },
+   "id": 34,
+   "hidden": false,
+   "locked": false,
+   "blend": "normal",
+   "parent": null,
+   "effects": [],
+   "keys": {},
+   "masks": [],
+   "styles": [],
+   "expressions": {},
+   "audio_fx": [],
+   "ui": {},
+   "align": "center",
+   "wrap": 900,
+   "line_height": 1.15,
+   "stroke_color": "#00000000",
+   "stroke_width": 0,
+   "shadow": 0,
+   "text_animators": [
+    {
+     "selector": {
+      "type": "range",
+      "start": 0,
+      "end": 100,
+      "keys": {
+       "start": [
+        {
+         "t": 0,
+         "v": [
+          0
+         ],
+         "e": "linear"
+        },
+        {
+         "t": 900,
+         "v": [
+          100
+         ],
+         "e": "ease_in_out"
+        }
+       ]
+      }
+     },
+     "params": {
+      "blur": 9,
+      "opacity": 40
+     },
+     "enabled": true
+    }
+   ]
+  },
+  {
+   "kind": "video",
+   "name": "control room",
+   "start": 24000,
+   "end": 27600,
+   "media_id": 4,
+   "z": 0.0,
+   "intensity": 0.6,
+   "fit": "cover",
+   "transform": {
+    "pos": [
+     540.0,
+     675.0,
+     0.0
+    ],
+    "anchor": [
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.0,
+     1.0
+    ],
+    "skew": [
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0
+    ],
+    "opacity": [
+     1.0
+    ]
+   },
+   "id": 35,
+   "hidden": false,
+   "locked": false,
+   "blend": "normal",
+   "parent": null,
+   "effects": [
+    {
+     "type": "exposure",
+     "src_id": "com.alightcreative.effects.exposure",
+     "params": {
+      "gamma": 0.6000000000000001,
+      "offset": 0.0
+     },
+     "keys": {
+      "exposure": [
+       {
+        "t": 0,
+        "v": [
+         0.4
+        ],
+        "e": null
+       },
+       {
+        "t": 448,
+        "v": [
+         0.0
+        ],
+        "e": null
+       }
+      ]
+     },
+     "enabled": true
+    },
+    {
+     "type": "motion_blur",
+     "src_id": "com.alightcreative.effects.motionblur4",
+     "params": {
+      "tune": 1.4,
+      "usePos": true,
+      "useScale": true,
+      "useAngle": true
+     },
+     "keys": {},
+     "enabled": true
+    },
+    {
+     "type": "vignette_pro",
+     "enabled": true,
+     "params": {
+      "amount": 0.42,
+      "radius": 0.64,
+      "feather": 0.55,
+      "color": "#FF000000"
+     },
+     "keys": {}
+    },
+    {
+     "type": "film_grain",
+     "enabled": true,
+     "params": {
+      "amount": 0.07,
+      "size": 1.0,
+      "color": false
+     },
+     "keys": {}
+    },
+    {
+     "type": "glow",
+     "enabled": true,
+     "params": {
+      "radius": 18.0,
+      "strength": 0.35,
+      "threshold": 0.62,
+      "color": "#FFFFFFFF",
+      "use_color": false
+     },
+     "keys": {}
+    }
+   ],
+   "keys": {
+    "pos": [
+     {
+      "t": 24000,
+      "v": [
+       505.0,
+       675.0,
+       0.0
+      ],
+      "e": null
+     },
+     {
+      "t": 27600,
+      "v": [
+       575.0,
+       675.0,
+       0.0
+      ],
+      "e": null
+     }
+    ],
+    "scale": [
+     {
+      "t": 24000,
+      "v": [
+       1.26,
+       1.26
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 24200,
+      "v": [
+       1.4,
+       1.4
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 24285,
+      "v": [
+       1.26,
+       1.26
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 24380,
+      "v": [
+       1.4,
+       1.4
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 24465,
+      "v": [
+       1.26,
+       1.26
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 24660,
+      "v": [
+       1.4,
+       1.4
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 24745,
+      "v": [
+       1.26,
+       1.26
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 24840,
+      "v": [
+       1.4,
+       1.4
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 24925,
+      "v": [
+       1.26,
+       1.26
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 25120,
+      "v": [
+       1.4,
+       1.4
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 25205,
+      "v": [
+       1.26,
+       1.26
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 25300,
+      "v": [
+       1.4,
+       1.4
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 25385,
+      "v": [
+       1.26,
+       1.26
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 25480,
+      "v": [
+       1.4,
+       1.4
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 25565,
+      "v": [
+       1.26,
+       1.26
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 25780,
+      "v": [
+       1.4,
+       1.4
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 25865,
+      "v": [
+       1.26,
+       1.26
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 26040,
+      "v": [
+       1.4,
+       1.4
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 26125,
+      "v": [
+       1.26,
+       1.26
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 26280,
+      "v": [
+       1.4,
+       1.4
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 26365,
+      "v": [
+       1.26,
+       1.26
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 26460,
+      "v": [
+       1.4,
+       1.4
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 26545,
+      "v": [
+       1.26,
+       1.26
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 26640,
+      "v": [
+       1.4,
+       1.4
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 26725,
+      "v": [
+       1.26,
+       1.26
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 26900,
+      "v": [
+       1.4,
+       1.4
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 26985,
+      "v": [
+       1.26,
+       1.26
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 27200,
+      "v": [
+       1.4,
+       1.4
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 27285,
+      "v": [
+       1.26,
+       1.26
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 27420,
+      "v": [
+       1.4,
+       1.4
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 27505,
+      "v": [
+       1.26,
+       1.26
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 27600,
+      "v": [
+       1.26,
+       1.26
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     }
+    ]
+   },
+   "masks": [],
+   "styles": [],
+   "expressions": {},
+   "audio_fx": [],
+   "ui": {},
+   "source_in": 7000,
+   "speed": 1.0
+  },
+  {
+   "kind": "text",
+   "name": "outro",
+   "start": 27600,
+   "end": 31000,
+   "z": 0.0,
+   "color": "#FFFFFFFF",
+   "text": "CRAFTMOTION",
+   "intensity": 0.6,
+   "size": 116,
+   "font": "",
+   "transform": {
+    "pos": [
+     540.0,
+     540.0,
+     0.0
+    ],
+    "anchor": [
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.0,
+     1.0
+    ],
+    "skew": [
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0
+    ],
+    "opacity": [
+     1.0
+    ]
+   },
+   "id": 36,
+   "hidden": false,
+   "locked": false,
+   "blend": "normal",
+   "parent": null,
+   "effects": [],
+   "keys": {
+    "opacity": [
+     {
+      "t": 27600,
+      "v": [
+       0.0
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 28050,
+      "v": [
+       1.0
+      ],
+      "e": [
+       0.42,
+       0.0,
+       0.58,
+       1.0
+      ]
+     }
+    ]
+   },
+   "masks": [],
+   "styles": [],
+   "expressions": {},
+   "audio_fx": [],
+   "ui": {},
+   "align": "center",
+   "wrap": 900,
+   "line_height": 1.15,
+   "stroke_color": "#00000000",
+   "stroke_width": 0,
+   "shadow": 0,
+   "text_animators": [
+    {
+     "selector": {
+      "type": "range",
+      "start": 0,
+      "end": 100,
+      "keys": {
+       "start": [
+        {
+         "t": 0,
+         "v": [
+          0
+         ],
+         "e": "linear"
+        },
+        {
+         "t": 700,
+         "v": [
+          100
+         ],
+         "e": "ease_out"
+        }
+       ]
+      }
+     },
+     "params": {
+      "y": -70,
+      "opacity": 0,
+      "rotation": -6
+     },
+     "enabled": true
+    }
+   ]
+  },
+  {
+   "kind": "text",
+   "name": "outro-cap",
+   "start": 27750,
+   "end": 31000,
+   "z": 0.0,
+   "color": "#FF9FB4C8",
+   "text": "317 effects \u00b7 39 transitions \u00b7 38 blends \u00b7 130 commands",
+   "intensity": 0.6,
+   "size": 28,
+   "font": "",
+   "transform": {
+    "pos": [
+     540.0,
+     675.0,
+     0.0
+    ],
+    "anchor": [
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.0,
+     1.0
+    ],
+    "skew": [
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0
+    ],
+    "opacity": [
+     1.0
+    ]
+   },
+   "id": 37,
+   "hidden": false,
+   "locked": false,
+   "blend": "normal",
+   "parent": null,
+   "effects": [],
+   "keys": {
+    "opacity": [
+     {
+      "t": 27600,
+      "v": [
+       0.0
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 28050,
+      "v": [
+       1.0
+      ],
+      "e": [
+       0.42,
+       0.0,
+       0.58,
+       1.0
+      ]
+     }
+    ]
+   },
+   "masks": [],
+   "styles": [],
+   "expressions": {},
+   "audio_fx": [],
+   "ui": {},
+   "align": "center",
+   "wrap": 900,
+   "line_height": 1.15,
+   "stroke_color": "#00000000",
+   "stroke_width": 0,
+   "shadow": 0,
+   "text_animators": [
+    {
+     "selector": {
+      "type": "range",
+      "start": 0,
+      "end": 100,
+      "keys": {
+       "start": [
+        {
+         "t": 0,
+         "v": [
+          0
+         ],
+         "e": "linear"
+        },
+        {
+         "t": 1200,
+         "v": [
+          100
+         ],
+         "e": "linear"
+        }
+       ]
+      }
+     },
+     "params": {
+      "opacity": 0,
+      "y": 6
+     },
+     "enabled": true
+    }
+   ]
+  },
+  {
+   "kind": "text",
+   "name": "credits",
+   "start": 28000,
+   "end": 31000,
+   "z": 0.0,
+   "color": "#FF7E93A8",
+   "text": "footage: fleischer 1941/42 + nasa (public domain)\nmusic: alec penn radio \u2014 midnight club (cc0)\nlooks: samuifx alight-motion xml presets \u00b7 edit: craftmotion v1.1",
+   "intensity": 0.6,
+   "size": 22,
+   "font": "",
+   "transform": {
+    "pos": [
+     540.0,
+     789.75,
+     0.0
+    ],
+    "anchor": [
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.0,
+     1.0
+    ],
+    "skew": [
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0
+    ],
+    "opacity": [
+     1.0
+    ]
+   },
+   "id": 38,
+   "hidden": false,
+   "locked": false,
+   "blend": "normal",
+   "parent": null,
+   "effects": [],
+   "keys": {
+    "opacity": [
+     {
+      "t": 27600,
+      "v": [
+       0.0
+      ],
+      "e": [
+       0.0,
+       0.0,
+       0.58,
+       1.0
+      ]
+     },
+     {
+      "t": 28050,
+      "v": [
+       1.0
+      ],
+      "e": [
+       0.42,
+       0.0,
+       0.58,
+       1.0
+      ]
+     }
+    ]
+   },
+   "masks": [],
+   "styles": [],
+   "expressions": {},
+   "audio_fx": [],
+   "ui": {},
+   "align": "center",
+   "wrap": 900,
+   "line_height": 1.15,
+   "stroke_color": "#00000000",
+   "stroke_width": 0,
+   "shadow": 0,
+   "text_animators": []
+  },
+  {
+   "kind": "text",
+   "name": "spectrum analyser",
+   "start": 27600,
+   "end": 31000,
+   "z": 0.0,
+   "text": "",
+   "intensity": 0.6,
+   "size": 10,
+   "transform": {
+    "pos": [
+     540.0,
+     675.0,
+     0.0
+    ],
+    "anchor": [
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.0,
+     1.0
+    ],
+    "skew": [
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0
+    ],
+    "opacity": [
+     1.0
+    ]
+   },
+   "id": 39,
+   "hidden": false,
+   "locked": false,
+   "blend": "normal",
+   "parent": null,
+   "effects": [
+    {
+     "type": "audio_spectrum",
+     "params": {
+      "bars": 72,
+      "height": 0.14,
+      "color": "#FF35E5FF",
+      "color2": "#FFFF3D8B",
+      "thickness": 0.6,
+      "mirror": false,
+      "gain": 1.0,
+      "smooth": 0.35
+     },
+     "enabled": true
+    }
+   ],
+   "keys": {
+    "pos": [
+     {
+      "t": 27600,
+      "v": [
+       540.0,
+       1289.25,
+       0.0
+      ],
+      "e": null
+     }
+    ]
+   },
+   "masks": [],
+   "styles": [],
+   "expressions": {},
+   "audio_fx": [],
+   "ui": {},
+   "font": "DejaVuSans-Bold",
+   "color": "#FFFFFFFF",
+   "align": "center",
+   "wrap": 900,
+   "line_height": 1.15,
+   "stroke_color": "#00000000",
+   "stroke_width": 0,
+   "shadow": 0,
+   "text_animators": []
+  }
+ ],
+ "comps": [],
+ "markers": [
+  {
+   "t": 1140,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 2540,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 2980,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 3460,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 3660,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 3880,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 4240,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 4440,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 4760,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 5020,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 5300,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 5520,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 5740,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 5960,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 6220,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 6660,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 6840,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 7140,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 7360,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 7540,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 8040,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 8500,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 8900,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 9400,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 10360,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 10800,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 11280,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 11520,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 11700,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 11880,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 12060,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 12320,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 12500,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 12720,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 12900,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 13120,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 13400,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 13580,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 13820,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 14040,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 14260,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 14600,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 14940,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 15160,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 15340,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 15520,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 15780,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 16000,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 16220,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 16580,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 16800,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 17040,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 17220,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 17500,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 17680,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 17880,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 18140,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 18380,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 18600,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 19120,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 19580,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 20040,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 20280,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 20520,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 20740,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 20960,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 21200,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 21420,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 21900,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 22340,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 22580,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 22820,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 23040,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 23240,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 23740,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 23960,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 24200,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 24380,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 24660,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 24840,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 25120,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 25300,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 25480,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 25780,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 26040,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 26280,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 26460,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 26640,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 26900,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 27200,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 27420,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 27620,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 27880,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 28060,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 28320,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 28520,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 28760,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 29040,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 29260,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 29520,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 29720,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 30040,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 30220,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 30400,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 30580,
+   "label": "beat",
+   "color": "#FFFFB440"
+  },
+  {
+   "t": 30880,
+   "label": "beat",
+   "color": "#FFFFB440"
+  }
+ ],
+ "motion_blur": {
+  "enabled": false,
+  "samples": 4,
+  "shutter": 0.5
+ },
+ "camera": {
+  "enabled": false,
+  "x": null,
+  "y": null,
+  "z": 0,
+  "zoom": 1.0,
+  "rotation": 0.0,
+  "dof": {
+   "enabled": false,
+   "focus_z": 0,
+   "strength": 6.0
+  }
+ },
+ "meta": {
+  "next_id": 40,
+  "am_xml_warnings": []
+ },
+ "grade": {
+  "enabled": true,
+  "exposure": 0.04,
+  "contrast": 1.1,
+  "saturation": 1.16,
+  "temperature": 0.05,
+  "tint": 0.0,
+  "lift": 0.0,
+  "gamma": 1.0,
+  "gain": 1.0,
+  "wheels": {
+   "shadows": {
+    "hue": 220.0,
+    "amount": 0.0
+   },
+   "midtones": {
+    "hue": 40.0,
+    "amount": 0.0
+   },
+   "highlights": {
+    "hue": 45.0,
+    "amount": 0.0
+   }
+  },
+  "hsl": {
+   "hue": 0.0,
+   "sat": 0.0,
+   "lum": 0.0
+  },
+  "curves": {
+   "rgb": [],
+   "r": [],
+   "g": [],
+   "b": []
+  },
+  "lut": {
+   "path": "",
+   "amount": 1.0
+  },
+  "transform": "none",
+  "linear_light": false,
+  "blend_linear": false
+ },
+ "captions": [
+  {
+   "start": 400,
+   "end": 2300,
+   "text": "xml-preset-driven edit \u00b7 v1.1"
+  },
+  {
+   "start": 2300,
+   "end": 7000,
+   "text": "fleischer, 1941 \u00b7 public domain"
+  },
+  {
+   "start": 7000,
+   "end": 10300,
+   "text": "same short, 1941 \u00b7 pd"
+  },
+  {
+   "start": 10300,
+   "end": 15000,
+   "text": "cuts land on detected onsets"
+  },
+  {
+   "start": 15000,
+   "end": 19500,
+   "text": "nasa sdo \u00b7 deep field \u00b7 pd"
+  },
+  {
+   "start": 19500,
+   "end": 24000,
+   "text": "nasa \u00b7 black hole sim \u00b7 pd"
+  },
+  {
+   "start": 24000,
+   "end": 27600,
+   "text": "fleischer, 1942 \u00b7 public domain"
+  },
+  {
+   "start": 27600,
+   "end": 31000,
+   "text": "made in craftmotion \u00b7 no alight motion used"
+  }
+ ],
+ "caption_style": {
+  "size": 30,
+  "margin": 0.05,
+  "color": "#FFFFFFFF",
+  "bg": "#C0000000"
+ },
+ "audio_master": {
+  "gain_db": 3.57,
+  "ceiling_db": -1.0,
+  "chain": []
+ }
+}

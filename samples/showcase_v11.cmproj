@@ -1,0 +1,681 @@
+{
+ "app": "CraftMotion",
+ "format": 1,
+ "title": "v1.1 showcase",
+ "created": 1794657427215,
+ "modified": 1794657427915,
+ "settings": {
+  "width": 900,
+  "height": 600,
+  "fps": 30.0,
+  "duration": 15000,
+  "bg": "#FF000000"
+ },
+ "media": [
+  {
+   "path": "/tmp/tmp3acv4yfu.wav",
+   "filename": "tmp3acv4yfu.wav",
+   "kind": "audio",
+   "width": 0,
+   "height": 0,
+   "duration_ms": 3000,
+   "fps": 0.0,
+   "has_audio": true,
+   "id": 1,
+   "project_dir": "/tmp"
+  }
+ ],
+ "layers": [
+  {
+   "kind": "audio",
+   "start": 0,
+   "end": 3000,
+   "media_id": 1,
+   "z": 0.0,
+   "intensity": 0.6,
+   "name": "Audio",
+   "volume": 1.0,
+   "id": 2,
+   "hidden": false,
+   "locked": false,
+   "blend": "normal",
+   "parent": null,
+   "effects": [],
+   "keys": {},
+   "transform": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "anchor": [
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.0,
+     1.0
+    ],
+    "skew": [
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0
+    ],
+    "opacity": [
+     1.0
+    ]
+   },
+   "masks": [],
+   "styles": [],
+   "expressions": {},
+   "audio_fx": [],
+   "ui": {},
+   "source_in": 0,
+   "fade_in": 0,
+   "fade_out": 0
+  },
+  {
+   "kind": "solid",
+   "start": 0,
+   "z": 0.0,
+   "color": "#FF0B1020",
+   "intensity": 0.6,
+   "blend": "normal",
+   "transform": {
+    "pos": [
+     450.0,
+     300.0,
+     0.0
+    ],
+    "anchor": [
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.0,
+     1.0
+    ],
+    "skew": [
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0
+    ],
+    "opacity": [
+     1.0
+    ]
+   },
+   "end": 15000,
+   "name": "Solid",
+   "id": 3,
+   "hidden": false,
+   "locked": false,
+   "parent": null,
+   "effects": [],
+   "keys": {},
+   "masks": [],
+   "styles": [],
+   "expressions": {},
+   "audio_fx": [],
+   "ui": {},
+   "w": null,
+   "h": null
+  },
+  {
+   "kind": "solid",
+   "start": 0,
+   "z": 0.0,
+   "w": 420.0,
+   "h": 300.0,
+   "color": "#FF1E6FD9",
+   "intensity": 0.6,
+   "transform": {
+    "pos": [
+     300.0,
+     300.0,
+     0.0
+    ],
+    "anchor": [
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.0,
+     1.0
+    ],
+    "skew": [
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0
+    ],
+    "opacity": [
+     1.0
+    ]
+   },
+   "end": 15000,
+   "name": "Solid",
+   "id": 4,
+   "hidden": false,
+   "locked": false,
+   "blend": "normal",
+   "parent": null,
+   "effects": [
+    {
+     "type": "bloom",
+     "enabled": true,
+     "params": {
+      "threshold": 0.55,
+      "radius": 18.0,
+      "intensity": 0.5
+     },
+     "keys": {}
+    }
+   ],
+   "keys": {},
+   "masks": [
+    {
+     "shape": "polygon",
+     "points": [
+      [
+       0.08,
+       0.1
+      ],
+      [
+       0.92,
+       0.06
+      ],
+      [
+       0.96,
+       0.9
+      ],
+      [
+       0.4,
+       0.97
+      ],
+      [
+       0.05,
+       0.6
+      ]
+     ],
+     "feather": 2.0,
+     "expansion": 0.0,
+     "opacity": 1.0,
+     "invert": false,
+     "mode": "add",
+     "enabled": true
+    }
+   ],
+   "styles": [
+    {
+     "type": "drop_shadow",
+     "params": {
+      "color": "#AA000000",
+      "blur": 26,
+      "opacity": 0.75,
+      "distance": 18
+     },
+     "enabled": true
+    },
+    {
+     "type": "stroke",
+     "params": {
+      "color": "#FF8FE7FF",
+      "size": 5
+     },
+     "enabled": true
+    }
+   ],
+   "expressions": {},
+   "audio_fx": [],
+   "ui": {}
+  },
+  {
+   "kind": "shape",
+   "start": 0,
+   "z": 0.0,
+   "w": 120.0,
+   "h": 120.0,
+   "color": "#FFFFC24A",
+   "intensity": 0.6,
+   "shape": "star",
+   "transform": {
+    "pos": [
+     650.0,
+     220.0,
+     0.0
+    ],
+    "anchor": [
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.0,
+     1.0
+    ],
+    "skew": [
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0
+    ],
+    "opacity": [
+     1.0
+    ]
+   },
+   "end": 15000,
+   "name": "Star",
+   "id": 5,
+   "hidden": false,
+   "locked": false,
+   "blend": "normal",
+   "parent": null,
+   "effects": [
+    {
+     "type": "audio_scale",
+     "enabled": true,
+     "params": {
+      "amount": 0.18,
+      "band": "low",
+      "pivot_y": 0.5
+     },
+     "keys": {}
+    }
+   ],
+   "keys": {},
+   "masks": [],
+   "styles": [],
+   "expressions": {},
+   "audio_fx": [],
+   "ui": {},
+   "radius": 0,
+   "points": 5,
+   "inner": 0.5,
+   "stroke_color": "#00000000",
+   "stroke_width": 0,
+   "path": [],
+   "trim": null,
+   "repeater": {
+    "copies": 5,
+    "x": 42.0,
+    "y": 18.0,
+    "rotation": 12.0,
+    "scale": 0.86,
+    "start_opacity": 1.0,
+    "end_opacity": 0.2
+   }
+  },
+  {
+   "kind": "shape",
+   "start": 0,
+   "z": 0.0,
+   "w": 900.0,
+   "h": 600.0,
+   "intensity": 0.6,
+   "shape": "path",
+   "closed": false,
+   "path": [
+    [
+     0.05,
+     0.75
+    ],
+    [
+     0.3,
+     0.62
+    ],
+    [
+     0.55,
+     0.8
+    ],
+    [
+     0.8,
+     0.66
+    ],
+    [
+     0.95,
+     0.72
+    ]
+   ],
+   "stroke_color": "#FFFF5A7A",
+   "stroke_width": 9,
+   "transform": {
+    "pos": [
+     450.0,
+     300.0,
+     0.0
+    ],
+    "anchor": [
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.0,
+     1.0
+    ],
+    "skew": [
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0
+    ],
+    "opacity": [
+     1.0
+    ]
+   },
+   "end": 15000,
+   "name": "Path",
+   "id": 6,
+   "hidden": false,
+   "locked": false,
+   "blend": "normal",
+   "parent": null,
+   "effects": [],
+   "keys": {},
+   "masks": [],
+   "styles": [],
+   "expressions": {},
+   "audio_fx": [],
+   "ui": {},
+   "radius": 0,
+   "points": 5,
+   "inner": 0.5,
+   "color": "#FF4C8DFF",
+   "trim": {
+    "start": 0.0,
+    "end": 74.0,
+    "offset": 0.0
+   },
+   "repeater": null
+  },
+  {
+   "kind": "text",
+   "start": 0,
+   "z": 0.0,
+   "color": "#FFFFFFFF",
+   "text": "CRAFTMOTION v1.1",
+   "intensity": 0.6,
+   "size": 64,
+   "transform": {
+    "pos": [
+     450.0,
+     120.0,
+     0.0
+    ],
+    "anchor": [
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.0,
+     1.0
+    ],
+    "skew": [
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0
+    ],
+    "opacity": [
+     1.0
+    ]
+   },
+   "end": 15000,
+   "name": "Text",
+   "id": 7,
+   "hidden": false,
+   "locked": false,
+   "blend": "normal",
+   "parent": null,
+   "effects": [],
+   "keys": {},
+   "masks": [],
+   "styles": [],
+   "expressions": {},
+   "audio_fx": [],
+   "ui": {},
+   "font": "DejaVuSans-Bold",
+   "align": "center",
+   "wrap": 900,
+   "line_height": 1.15,
+   "stroke_color": "#00000000",
+   "stroke_width": 0,
+   "shadow": 0,
+   "text_animators": [
+    {
+     "selector": {
+      "type": "range",
+      "start": 0,
+      "end": 100,
+      "keys": {
+       "start": [
+        {
+         "t": 0,
+         "v": [
+          0
+         ],
+         "e": "linear"
+        },
+        {
+         "t": 1167,
+         "v": [
+          100
+         ],
+         "e": "ease_out"
+        }
+       ]
+      }
+     },
+     "params": {
+      "y": -70,
+      "opacity": 0,
+      "rotation": -6
+     },
+     "enabled": true
+    }
+   ]
+  },
+  {
+   "kind": "text",
+   "start": 0,
+   "z": 0.0,
+   "text": "",
+   "intensity": 0.6,
+   "size": 10,
+   "transform": {
+    "pos": [
+     450.0,
+     300.0,
+     0.0
+    ],
+    "anchor": [
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.0,
+     1.0
+    ],
+    "skew": [
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0
+    ],
+    "opacity": [
+     1.0
+    ]
+   },
+   "end": 15000,
+   "name": "Text",
+   "id": 8,
+   "hidden": false,
+   "locked": false,
+   "blend": "normal",
+   "parent": null,
+   "effects": [
+    {
+     "type": "audio_spectrum",
+     "params": {
+      "bars": 64,
+      "height": 0.22,
+      "color": "#FF38E8C8",
+      "color2": "#FF8B5CF6",
+      "thickness": 0.55,
+      "mirror": false,
+      "gain": 1.0,
+      "smooth": 0.35
+     },
+     "enabled": true
+    }
+   ],
+   "keys": {},
+   "masks": [],
+   "styles": [],
+   "expressions": {},
+   "audio_fx": [],
+   "ui": {},
+   "font": "DejaVuSans-Bold",
+   "color": "#FFFFFFFF",
+   "align": "center",
+   "wrap": 900,
+   "line_height": 1.15,
+   "stroke_color": "#00000000",
+   "stroke_width": 0,
+   "shadow": 0,
+   "text_animators": []
+  },
+  {
+   "kind": "light",
+   "name": "Light",
+   "color": "#FFFFD9A0",
+   "radius": 460.0,
+   "intensity": 0.3,
+   "start": 0,
+   "end": 15000,
+   "transform": {
+    "pos": [
+     450.0,
+     300.0,
+     0.0
+    ],
+    "anchor": [
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.0,
+     1.0
+    ],
+    "skew": [
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0
+    ],
+    "opacity": [
+     1.0
+    ]
+   },
+   "id": 9,
+   "hidden": false,
+   "locked": false,
+   "blend": "normal",
+   "parent": null,
+   "effects": [],
+   "keys": {},
+   "masks": [],
+   "styles": [],
+   "expressions": {},
+   "audio_fx": [],
+   "ui": {}
+  }
+ ],
+ "comps": [],
+ "markers": [],
+ "motion_blur": {
+  "enabled": false,
+  "samples": 4,
+  "shutter": 0.5
+ },
+ "camera": {
+  "enabled": true,
+  "x": null,
+  "y": null,
+  "z": 0.0,
+  "zoom": 1.04,
+  "rotation": -1.2,
+  "dof": {
+   "enabled": false,
+   "focus_z": 0,
+   "strength": 6.0
+  }
+ },
+ "meta": {
+  "next_id": 10,
+  "am_xml_warnings": []
+ },
+ "grade": {
+  "enabled": true,
+  "exposure": 0.12,
+  "contrast": 1.06,
+  "saturation": 1.12,
+  "temperature": 0.0,
+  "tint": 0.0,
+  "lift": 0.0,
+  "gamma": 1.0,
+  "gain": 1.0,
+  "wheels": {
+   "shadows": {
+    "hue": 220.0,
+    "amount": 0.0
+   },
+   "midtones": {
+    "hue": 40.0,
+    "amount": 0.0
+   },
+   "highlights": {
+    "hue": 45.0,
+    "amount": 0.0
+   }
+  },
+  "hsl": {
+   "hue": 0.0,
+   "sat": 0.0,
+   "lum": 0.0
+  },
+  "curves": {
+   "rgb": [],
+   "r": [],
+   "g": [],
+   "b": []
+  },
+  "lut": {
+   "path": "",
+   "amount": 1.0
+  },
+  "transform": "none",
+  "linear_light": false,
+  "blend_linear": false
+ },
+ "captions": [
+  {
+   "start": 0,
+   "end": 2200,
+   "text": "312 effects \u00b7 39 transitions \u00b7 38 blend modes"
+  },
+  {
+   "start": 2200,
+   "end": 4000,
+   "text": "masks, styles, tracking, audio-reactive, Lottie"
+  }
+ ]
+}

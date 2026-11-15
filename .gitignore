@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+build/
+dist/
+*.egg-info/
+.craftmotion/
+samples/demo_assets/
+*.wixobj
+
+# two-half render scratch (the joined signal_noise.mp4 is committed)
+edits/render/signal_noise_p*.mp4
+edits/render/parts.txt

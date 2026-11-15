@@ -1,0 +1,93 @@
+name: Build Windows app (.exe + .msi)
+
+# Produces two downloadable artifacts:
+#   CraftMotion-Windows  → CraftMotion.exe + CraftMotion-<ver>-x64.msi
+# The .exe is the deliverable; the MSI is best-effort so a WiX hiccup can never
+# stop you from getting a working executable.
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main, master]
+    tags: ["v*"]
+
+env:
+  PYTHONUTF8: "1"
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install numpy pillow imageio-ffmpeg pyinstaller pytest
+
+      - name: Run test suite
+        run: pytest tests -q
+
+      - name: Build CraftMotion.exe
+        run: pyinstaller craftmotion.spec --noconfirm
+
+      - name: Smoke-test the frozen binary (CLI + MCP handshake)
+        shell: pwsh
+        run: |
+          .\dist\CraftMotion.exe --version
+          if ($LASTEXITCODE -ne 0) { throw "exe --version failed" }
+
+          # MCP stdio server must answer `initialize` and exit on stdin EOF.
+          $req = '{"jsonrpc":"2.0","id":1,"method":"initialize","params":{}}'
+          $out = $req | .\dist\CraftMotion.exe mcp | Out-String
+          Write-Host $out
+          if ($out -notmatch 'protocolVersion') { throw "MCP handshake produced no protocolVersion" }
+
+      - name: Stage the .exe
+        run: |
+          New-Item -ItemType Directory -Force -Path artifact | Out-Null
+          Copy-Item dist\CraftMotion.exe artifact\CraftMotion.exe
+          Copy-Item README.md artifact\README.md
+          Get-ChildItem artifact
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: CraftMotion-Windows
+          path: artifact/CraftMotion.exe
+          if-no-files-found: error
+
+      - name: Install WiX toolset
+        continue-on-error: true
+        run: |
+          choco install wixtoolset --no-progress -y
+          echo "C:\Program Files (x86)\WiX Toolset v3.11\bin" | Out-File -FilePath $env:GITHUB_PATH -Append
+
+      - name: Build MSI
+        continue-on-error: true
+        shell: pwsh
+        run: |
+          candle.exe -dVersion=1.1.0 installer\craftmotion.wxs -out installer\craftmotion.wixobj
+          if ($LASTEXITCODE -ne 0) { throw "candle failed" }
+          light.exe installer\craftmotion.wixobj -sval -out "dist\CraftMotion-1.1.0-x64.msi"
+          if ($LASTEXITCODE -ne 0) { throw "light failed" }
+          Copy-Item "dist\CraftMotion-1.1.0-x64.msi" artifact\
+
+      - name: Upload MSI (optional)
+        if: hashFiles('artifact/*.msi') != ''
+        uses: actions/upload-artifact@v4
+        with:
+          name: CraftMotion-MSI
+          path: artifact/*.msi
+
+      - name: Upload unpacked build folder
+        uses: actions/upload-artifact@v4
+        with:
+          name: CraftMotion-build-info
+          path: |
+            README.md
+            craftmotion.spec
